@@ -1,20 +1,24 @@
+<section class="hero">
+
+    <div class="hero-background" style="background-image: url({{ home_hero_image }})">
+        <div class="overlay"></div>
+        <header>
+            <h1>{{ title }}</h1>
+            {{ sub_title wrap="h3" }}
+        </header>
+    </div>
+</section>
 <section class="regular">
 
-    <h1 class="special centered">
-        <small>The Statamic</small>
-        Redwood Theme
-    </h1>
+	<header>
+		<h1>{{ title }}</h1>
+		{{ sub_title wrap="h2" }}
+	</header>
 
-    <div class="centered">{{ content }}</div>
-
-	<article class="list">
-		{{ collection:blog :limit="posts" scope="tag" }}
-			{{ partial:block }}
-		{{ /collection:blog }}
+	<article class="content">
+		{{ content }}
+		<h2>Fun Facts</h2>
+		{{ fun_facts | ul }}
 	</article>
-
-    <div class="read-more">
-        <a href="{{ link to='blog' }}">Read the rest of the blog</a>
-    </div>
 
 </section>

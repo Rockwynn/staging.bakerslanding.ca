@@ -1,5 +1,15 @@
+<section class="hero">
+
+    <div class="hero-background" style="background-image: url({{ our_cottage_hero_image }})">
+        <div class="overlay"></div>
+        <header>
+            <h1>{{ title }}</h1>
+            {{ sub_title wrap="h2" }}
+        </header>
+    </div>
+</section>
 <section class="regular">
-	
+
 	<header>
 		<h1>{{ title }}</h1>
 		{{ sub_title wrap="h2" }}
@@ -10,5 +20,5 @@
 		<h2>Fun Facts</h2>
 		{{ fun_facts | ul }}
 	</article>
-	
+
 </section>

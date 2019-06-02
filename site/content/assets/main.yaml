@@ -14,3 +14,9 @@ assets:
     title: redwood sign
   img/desert.jpg:
     focus: 77-70
+  img/banner-jeffs-website.jpg:
+    title: jeffs
+    alt: Jeff Baker
+  img/bakers-landing-dock.jpg:
+    title: Escape
+    alt: escape to the country

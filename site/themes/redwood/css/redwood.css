@@ -41,7 +41,7 @@ body {
       height: 700px;
       width: 100%;
       position: absolute;
-      background: rgba(0, 0, 0, 0.55);
+      background: rgba(0, 0, 0, 0.15);
       z-index: 1; }
   .hero header,
   .hero article {

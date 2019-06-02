@@ -1,5 +1,5 @@
 ---
-title: Gallery
+title: Cottage Photos
 images:
   - /assets/img/black-bear-cubs.jpg
   - /assets/img/redwood-balance.jpg
