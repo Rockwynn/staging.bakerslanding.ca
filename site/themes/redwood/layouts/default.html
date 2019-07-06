@@ -16,14 +16,13 @@
 
 <body class="section-{{ segment_1 or "home" }}">
 
+    {{ partial:hero }}
+
     {{ partial:nav }}
 
     {{ template_content }}
 
-    <footer class="page">
-        <p class="copyright">&copy; {{ now format="Y" }} {{ author_name }}</p>
-        <p class="tribute">Built with Statamic</p>
-    </footer>
+    {{ partial:footer }}
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>

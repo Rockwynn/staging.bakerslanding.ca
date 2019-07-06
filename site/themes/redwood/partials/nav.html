@@ -13,28 +13,37 @@
 
         <div class="collapse navbar-collapse" id="nav-main">
             <ul class="nav navbar-nav">
-                {{ nav from="/" include_home="true" scope="tag" }}
-                    <li{{ if is_current or is_parent }} class="active"{{ /if }}>
-                        <a href="{{ url }}">{{ tag:nav_title or title }}
-                        </a>
+                {{ nav from="/" max-depth="2" include_home="true" scope="tag" }}
+                {{ if !children }}
+                    <li class="nav-item{{ if is_current }} active{{ endif }}">
+                      <a class="nav-link" href="{{ url }}">{{ title }}</a>
                     </li>
-                {{ /nav }}
-            </ul>
-            <form class="navbar-form navbar-right" role="search" action="{{ link to='search' }}">
-                <div class="form-group">
-                    <input type="text" class="form-control search" name="q" placeholder="Search">
-                </div>
-            </form>
-            <ul class="nav navbar-nav navbar-right">
-                {{ if logged_in }}
-                    <li><a href="{{ link to='users' }}">Users</a></li>
-                    <li><a href="{{ user:logout_url }}">Log out</a></li>
                 {{ else }}
-                    <li><a href="{{ link to='login' }}">Log in</a></li>
-                    <li><a href="{{ link to='register' }}">Register</a></li>
-                {{ /if }}
+
+
+                    <li class="nav-item dropdown{{ if is_current }} active {{ endif }}">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown{{ id }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ title }}
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown{{ id }}">
+                        <li>
+                            <!--<a class="dropdown-item" href="{{ url }}">{{ title }}</a> this adds the parent as a clickable child page tab -->
+                        </li>
+                            {{ children }}
+                            <li{{ if is_current or is_parent }} class="active"{{ /if }}><a class="dropdown-item" href="{{ url }}">{{ title }}</a></li>
+                            {{ /children }}
+                        </ul>
+                    </li>
+                {{ endif }}
+            {{ /nav }}
+
             </ul>
         </div>
 
     </div>
 </nav>
+<!--<li{{ if is_current or is_parent }} class="active"{{ /if }}>
+    <a href="{{ url }}">{{ tag:nav_title or title }}
+    </a>
+</li>
+{{ /nav }}-->
