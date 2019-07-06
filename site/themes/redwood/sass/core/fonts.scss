@@ -1,2 +1,44 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,400italic,900);
-@import url(https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic);
+/*@import url(https://fonts.googleapis.com/css?family=Lato:400,300,400italic,900);
+@import url(https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic);*/
+@font-face {
+    font-family: 'FreightSansPro';
+    font-display: optional;
+    src: url("../fonts/FreightSansPro-Book.otf");
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'FreightSansPro';
+    font-display: optional;
+    src: url("../fonts/FreightSansPro-Medium.otf");
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'FreightSansPro';
+    font-display: optional;
+    src: url("../fonts/FreightSansPro-Semibold.otf");
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'FreightSansPro';
+    font-display: optional;
+    src: url("../fonts/FreightSansPro-Bold.otf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'FreightTextPro';
+    font-style: normal;
+    font-weight: 600;
+    src: local('FreightTextPro'),
+        url('../fonts/FreightTextPro-SemiboldRegular.woff') format('woff'),
+        url('../fonts/FreightTextPro-SemiboldRegular.ttf') format('truetype'),
+        url('../fonts/FreightTextPro-SemiboldRegular.eot') format('embedded-opentype');
+}
+@font-face {
+    font-family: 'FreightTextPro';
+    font-style: normal;
+    font-weight: 700;
+    src: local('FreightTextPro'),
+        url('../fonts/FreightTextPro-Bold.woff2') format('woff2'),
+        url('../fonts/FreightTextPro-Bold.woff') format('woff'),
+        url('../fonts/FreightTextPro-Bold.ttf') format('truetype');
+}
