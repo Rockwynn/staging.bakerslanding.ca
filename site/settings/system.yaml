@@ -1,9 +1,0 @@
-app_key: XnVMruhA45te0qEzGrPcNhFfUdroZEFz
-yaml_parser: symfony
-locales:
-  en:
-    full: en_US
-    name: English
-    url: 'http://staging.bakerslanding.ca.test/'
-license_key: 0483d8fc-79d2-4daf-bd10-a9a73cd6aa93
-timezone: America/Toronto
