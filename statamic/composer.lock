@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a7cdc701fb81365b655f1231bc47b006",
+    "content-hash": "71ec9298a08edac511ebfbff2ff62e4b",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -638,6 +638,66 @@
                 "url"
             ],
             "time": "2018-12-04T20:46:45+00:00"
+        },
+        {
+            "name": "imgix/imgix-php",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/imgix/imgix-php.git",
+                "reference": "caa168910f99f9413a28147885ec37e91a16b786"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/imgix/imgix-php/zipball/caa168910f99f9413a28147885ec37e91a16b786",
+                "reference": "caa168910f99f9413a28147885ec37e91a16b786",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Imgix\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "A PHP client library for generating URLs with imgix.",
+            "keywords": [
+                "imgix"
+            ],
+            "time": "2018-02-02T17:34:06+00:00"
+        },
+        {
+            "name": "imgix/imgix-statamic",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../site/addons/Imgix",
+                "reference": "3de5c7a7d3ec794212b53564ec2d1948fc6ef8dd",
+                "shasum": null
+            },
+            "require": {
+                "imgix/imgix-php": "^1.1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8"
+            },
+            "type": "library",
+            "authors": [
+                {
+                    "name": "Paul Straw",
+                    "email": "paulstraw@paulstraw.com"
+                }
+            ],
+            "description": "Easily generate imgix URLs inside Statamic",
+            "transport-options": {
+                "symlink": false
+            }
         },
         {
             "name": "intervention/image",
@@ -4444,8 +4504,7 @@
             "authors": [
                 {
                     "name": "Chris Boulton",
-                    "homepage": "http://github.com/chrisboulton",
-                    "role": "Original developer"
+                    "homepage": "http://github.com/chrisboulton"
                 }
             ],
             "description": "A comprehensive library for generating differences between two hashable objects (strings or arrays).",
@@ -5554,7 +5613,8 @@
         "league/flysystem-ziparchive": 20,
         "mustangostang/spyc": 20,
         "michelf/php-smartypants": 20,
-        "netcarver/textile": 20
+        "netcarver/textile": 20,
+        "imgix/imgix-statamic": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
