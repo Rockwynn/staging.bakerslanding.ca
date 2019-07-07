@@ -1,9 +1,52 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,400italic,900);
-@import url(https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic);
+/*@import url(https://fonts.googleapis.com/css?family=Lato:400,300,400italic,900);
+@import url(https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic);*/
+
+@font-face {
+  font-family: 'FreightSansPro';
+  font-display: optional;
+  src: url("../fonts/FreightSansPro-Book.otf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'FreightSansPro';
+  font-display: optional;
+  src: url("../fonts/FreightSansPro-Medium.otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'FreightSansPro';
+  font-display: optional;
+  src: url("../fonts/FreightSansPro-Semibold.otf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'FreightSansPro';
+  font-display: optional;
+  src: url("../fonts/FreightSansPro-Bold.otf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'FreightTextPro';
+  font-style: normal;
+  font-weight: 600;
+  src: local("FreightTextPro"), url("../fonts/FreightTextPro-SemiboldRegular.woff") format("woff"), url("../fonts/FreightTextPro-SemiboldRegular.ttf") format("truetype"), url("../fonts/FreightTextPro-SemiboldRegular.eot") format("embedded-opentype");
+}
+
+@font-face {
+  font-family: 'FreightTextPro';
+  font-style: normal;
+  font-weight: 700;
+  src: local("FreightTextPro"), url("../fonts/FreightTextPro-Bold.woff2") format("woff2"), url("../fonts/FreightTextPro-Bold.woff") format("woff"), url("../fonts/FreightTextPro-Bold.ttf") format("truetype");
+}
+
 body {
   background: #fff;
   color: #3c3c3c;
-  font-family: "Lora", serif;
+  font-family: "FreightTextPro", serif;
   font-size: 18px;
 }
 
@@ -34,6 +77,24 @@ body {
   .regular {
     padding: 32px 16px;
   }
+}
+
+.hero-header {
+  content: '';
+  position: absolute;
+  bottom: -0.25rem;
+  width: 100%;
+  height: 160px;
+  background-image: url(/assets/bakers-landing-logo.png);
+  background-position-x: center;
+  background-position-y: center;
+  background-size: initial;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
 }
 
 .hero {
@@ -76,7 +137,7 @@ body {
 }
 
 .hero header h2 {
-  font-family: "Lora", serif;
+  font-family: "FreightTextPro", serif;
   font-style: italic;
   -webkit-font-smoothing: antialiased;
 }
@@ -102,7 +163,7 @@ body {
 .hero .meta .name {
   color: #fff;
   margin: 5px 0;
-  font-family: "Lora", serif;
+  font-family: "FreightTextPro", serif;
   font-style: italic;
   font-size: 18px;
   text-transform: normal;
@@ -153,7 +214,7 @@ footer.page {
 }
 
 footer.page p.copyright {
-  font-family: "Lato", sans-serif;
+  font-family: "FreightSansPro", sans-serif;
   font-weight: 900;
   font-size: 14px;
 }
@@ -179,10 +240,10 @@ footer.page p.tribute {
 
 .read-more {
   margin-top: 96px;
-  font-family: "Lato", sans-serif;
+  font-family: "FreightSansPro", sans-serif;
   text-align: center;
   display: block;
-  font-family: "Lato", sans-serif;
+  font-family: "FreightSansPro", sans-serif;
   color: #b8b8b8;
   font-size: 13px;
   text-transform: uppercase;
@@ -194,7 +255,7 @@ footer.page p.tribute {
 }
 
 input.giant {
-  font-family: "Lato", sans-serif;
+  font-family: "FreightSansPro", sans-serif;
   font-size: 60px;
   font-weight: 300;
   color: #3c3c3c;
@@ -221,7 +282,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Lato", sans-serif;
+  font-family: "FreightTextPro", serif;
   font-weight: 900;
   letter-spacing: -.025em;
   margin: 0 0 32px -1px;
@@ -229,26 +290,32 @@ h6 {
 
 h1 {
   font-size: 60px;
+  font-weight: 700;
 }
 
 h2 {
   font-size: 42px;
+  font-weight: 700;
 }
 
 h3 {
   font-size: 28px;
+  font-weight: 600;
 }
 
 h4 {
   font-size: 20px;
+  font-weight: 600;
 }
 
 h5 {
   font-size: 16px;
+  font-weight: 600;
 }
 
 h6 {
   font-size: 12px;
+  font-weight: 600;
   letter-spacing: .15em;
   text-transform: uppercase;
 }
@@ -277,13 +344,13 @@ h6 em {
 }
 
 .special {
-  font-family: "Lora", serif;
+  font-family: "FreightTextPro", serif;
   margin-bottom: 64px;
 }
 
 .special small {
   display: block;
-  font-family: "Lato", sans-serif;
+  font-family: "FreightSansPro", sans-serif;
   color: #b8b8b8;
   font-size: 13px;
   text-transform: uppercase;
@@ -309,7 +376,7 @@ section header h2 {
 }
 
 article.content p {
-  font-family: "Lora", serif;
+  font-family: "FreightTextPro", serif;
   font-size: 18px;
   line-height: 32px;
   margin: 0 0 32px;
@@ -401,7 +468,7 @@ article.content img.oversized {
 }
 
 article.content p.caption {
-  font-family: "Lora", serif;
+  font-family: "FreightTextPro", serif;
   font-style: italic;
   font-size: 14px;
   text-align: center;
@@ -419,7 +486,7 @@ article.content iframe {
 }
 
 .block h3 {
-  font-family: "Lato", sans-serif;
+  font-family: "FreightSansPro", sans-serif;
   font-size: 24px;
   font-weight: 900;
   margin: 0 0 5px;
@@ -427,7 +494,7 @@ article.content iframe {
 }
 
 .block p {
-  font-family: "Lato", sans-serif;
+  font-family: "FreightSansPro", sans-serif;
   font-size: 18px;
   line-height: 1.5;
   font-weight: 300;
@@ -460,7 +527,7 @@ article.content iframe {
 
 .meta {
   color: #b8b8b8;
-  font-family: "Lato", sans-serif;
+  font-family: "FreightSansPro", sans-serif;
   font-size: 12px;
   margin: 0 0 64px;
 }
@@ -515,7 +582,7 @@ code {
 
 .navbar-redwood .nav {
   color: #b8b8b8;
-  font-family: "Lato", sans-serif;
+  font-family: "FreightSansPro", sans-serif;
   font-size: 12px;
   overflow: hidden;
 }
@@ -580,7 +647,7 @@ code {
 
 .navbar-redwood .search {
   border-radius: 32px;
-  font-family: "Lato", sans-serif;
+  font-family: "FreightSansPro", sans-serif;
   font-size: 14px;
   width: 180px;
   display: block;
@@ -617,7 +684,7 @@ code {
   background: rgba(0, 0, 0, 0.05);
   color: #445566;
   cursor: pointer;
-  font-family: "Lato", sans-serif;
+  font-family: "FreightSansPro", sans-serif;
   font-size: 12px;
   padding: 6px 10px;
   border-radius: 2px;
