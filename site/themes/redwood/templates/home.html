@@ -1,20 +1,20 @@
 <section class="regular">
-
+    <div class="date">
+        {{ date format="F j, Y" }}
+    </div>
     <h1 class="special centered">
-        <small>The Statamic</small>
-        Redwood Theme
+
+        Welcome!
     </h1>
-
-    <div class="centered">{{ content }}</div>
-
+    <div class="centered bright-blue"><h3 class="uppercase">Come and enjoy the beautiful seasons in Almaguin Highlands.  Great relaxing and good fishing too!  Boat rentals nearby.  Well behaved pet welcome.</h3></div>
 	<article class="list">
-		{{ collection:blog :limit="posts" scope="tag" }}
+		<!--{{ collection:blog :limit="posts" scope="tag" }}
 			{{ partial:block }}
-		{{ /collection:blog }}
+		{{ /collection:blog }}-->
 	</article>
 
     <div class="read-more">
-        <a href="{{ link to='blog' }}">Read the rest of the blog</a>
+        <!--<a href="{{ link to='blog' }}">Read the rest of the blog</a>-->
     </div>
 
 </section>

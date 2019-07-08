@@ -247,7 +247,7 @@ footer.page p.tribute {
 }
 
 .section-things {
-  background: #f2f2f2;
+  /*background: #f2f2f2;*/
 }
 
 .section-things section header {
@@ -574,6 +574,14 @@ code {
 
 .centered {
   text-align: center;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.bright-blue {
+  color: #2667ad;
 }
 
 .gallery header {
