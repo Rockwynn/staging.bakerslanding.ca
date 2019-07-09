@@ -44,8 +44,12 @@
 		margin-top: -61px;
 	}
 }
+@media all and (max-width: 740px + $gap) {
+	.home-hero-header-background {
+		margin-top: 0px;
+	}
 
-
+}
 .hero {
 	padding-bottom: ($gap * 2);
 	position: relative;

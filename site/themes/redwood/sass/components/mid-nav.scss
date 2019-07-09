@@ -13,6 +13,7 @@
 
 	.nav a {
 		color: $color_light;
+        font-weight: 900;
 		letter-spacing: .1em;
 		margin-left: 32px;
 		padding: 20px 0;
@@ -41,6 +42,7 @@
 
 	.nav .active a {
 		color: $color_dark;
+        font-weight: 900;
 		font-weight: bold;
 		position: relative;
 		&:before {
@@ -119,6 +121,7 @@
   }
   .mid-navbar-nav > li a {
     /*line-height: 126px;*/
+    font-weight: 900;
     vertical-align: 100px;
     padding: 0 24px;
   }
@@ -126,12 +129,14 @@
 
 @media (min-width: 992px) {
   .mid-navbar-nav > li a {
+    font-weight: 900;
     padding: 0 48px;
   }
 }
 
 @media (min-width: 1200px) {
   .mid-navbar-nav > li a {
+    font-weight: 900;
     padding: 0 48px;
 }
 }
