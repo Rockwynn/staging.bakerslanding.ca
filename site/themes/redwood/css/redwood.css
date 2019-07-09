@@ -704,14 +704,14 @@ code {
   width: 300px;
 }
 
-.navbar-toggle {
-  background: #eee;
-  margin-top: 12px;
-}
+/*.navbar-toggle {
+	background: #eee;
+	margin-top: 12px;
 
-.navbar-toggle .icon-bar {
-  background: #aaa;
-}
+	.icon-bar {
+		background: #aaa;
+	}
+}*/
 
 .top-navbar {
   background-color: transparent;

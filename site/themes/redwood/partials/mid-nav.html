@@ -19,6 +19,30 @@
                             <li><a href="gallery">Gallery</a></li>
                             <li><a href="/things">Things</a></li>
                             <li><a href="contact">Contact</a></li>
+                            {{ nav from="/" max_depth="2" include_home="true" scope="tag" }}
+
+                                {{ if !children }}
+                                    <li class="hidden-sm hidden-md hidden-lg nav-item{{ if is_current }} active{{ endif }}">
+                                      <a class="nav-link" href="{{ url }}">{{ title }}</a>
+                                    </li>
+                                {{ else }}
+
+
+                                    <li class="hidden-sm hidden-md hidden-lg nav-item dropdown{{ if is_current }} active {{ endif }}">
+                                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown{{ id }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ title }}
+                                            <span class="caret"></span>
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown{{ id }}">
+                                        <li>
+                                            <!--<a class="dropdown-item" href="{{ url }}">{{ title }}</a> this adds the parent as a clickable child page tab -->
+                                        </li>
+                                            {{ children }}
+                                            <li{{ if is_current or is_parent }} class="active"{{ /if }}><a class="hidden-sm hidden-md hidden-lg dropdown-item" href="{{ url }}">{{ title }}</a></li>
+                                            {{ /children }}
+                                        </ul>
+                                    </li>
+                                {{ endif }}
+                            {{ /nav }}
                         </ul>
                 </div>
         </div>
