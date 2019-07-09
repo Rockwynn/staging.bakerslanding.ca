@@ -2,19 +2,41 @@
     <div class="date">
         {{ date format="F j, Y" }}
     </div>
-    <h1 class="special centered">
 
-        Welcome!
-    </h1>
-    <div class="centered bright-blue"><h3 class="uppercase">Come and enjoy the beautiful seasons in Almaguin Highlands.  Great relaxing and good fishing too!  Boat rentals nearby.  Well behaved pet welcome.</h3></div>
-	<article class="list">
-		<!--{{ collection:blog :limit="posts" scope="tag" }}
-			{{ partial:block }}
-		{{ /collection:blog }}-->
-	</article>
+    <div class="centered bright-blue"></div>
+	<section class="container-fluid">
+		<header>
+            <h1 class="centered">Welcome!</h1>
+            <h3 class="uppercase">Come and enjoy the beautiful seasons in Almaguin Highlands.  Great relaxing and good fishing too!  Boat rentals nearby.  Well behaved pet welcome.</h3>
+        </header>
+        <div class="tiles">
+
+        </div>
+
+	</section>
 
     <div class="read-more">
         <!--<a href="{{ link to='blog' }}">Read the rest of the blog</a>-->
+    </div>
+
+</section>
+
+
+<section class="container-fluid">
+
+	<header>
+		<h1>{{ title }}</h1>
+		{{ content_raw wrap="h2" }}
+	</header>
+
+    <div class="tiles">
+        {{ collection:home-page-3up }}
+        <!--<a href="http://amzn.com/{{ amazon_id }}" class="item">-->
+            <div class="image" style="background-image: url('{{ photo }}');">
+                <h3 class="caption">{{ title }}</h3>
+            </div>
+        <!--</a>-->
+        {{ /collection:home-page-3up }}
     </div>
 
 </section>
