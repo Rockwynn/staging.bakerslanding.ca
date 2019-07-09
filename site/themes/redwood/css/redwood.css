@@ -114,7 +114,7 @@ body {
   background-repeat: no-repeat;
   height: 696px;
   position: relative;
-  margin-top: -30px;
+  margin-top: -61px;
 }
 
 .hero {
@@ -601,21 +601,22 @@ code {
   opacity: 0;
 }
 
-.navbar-redwood {
+.top-navbar-redwood {
   background: #fff;
-  /*border-bottom: 1px solid rgba(0,0,0,.1);*/
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 0;
   min-height: 60px;
 }
 
-.navbar-redwood .nav {
+.top-navbar-redwood .nav {
   color: #b8b8b8;
   font-family: "FreightSansPro", sans-serif;
   font-size: 12px;
   /*overflow: hidden;*/
+  /*z-index: 100;*/
 }
 
-.navbar-redwood .nav a {
+.top-navbar-redwood .nav a {
   color: #b8b8b8;
   letter-spacing: .1em;
   margin-left: 32px;
@@ -624,7 +625,7 @@ code {
   -webkit-backface-visibility: hidden;
 }
 
-.navbar-redwood .nav a:before {
+.top-navbar-redwood .nav a:before {
   position: absolute;
   left: 0;
   bottom: -3px;
@@ -636,31 +637,193 @@ code {
   opacity: 0;
 }
 
-.navbar-redwood .nav a:hover,
-.navbar-redwood .nav a:focus {
+.top-navbar-redwood .nav a:hover,
+.top-navbar-redwood .nav a:focus {
   background: transparent;
 }
 
-.navbar-redwood .nav a:hover:before,
-.navbar-redwood .nav a:focus:before {
+.top-navbar-redwood .nav a:hover:before,
+.top-navbar-redwood .nav a:focus:before {
   opacity: 1;
   bottom: 0;
 }
 
-.navbar-redwood .nav .active a {
+.top-navbar-redwood .nav .active a {
   color: #3c3c3c;
   font-weight: bold;
   position: relative;
 }
 
-.navbar-redwood .nav .active a:before {
+.top-navbar-redwood .nav .active a:before {
   bottom: 0;
   height: 2px;
   background: #3c3c3c;
   opacity: 1;
 }
 
-.navbar-redwood .navbar-brand {
+.top-navbar-redwood .navbar-brand {
+  color: #3c3c3c;
+  font-weight: 900;
+  font-size: 32px;
+  height: 60px;
+  padding: 20px 15px;
+  letter-spacing: -.05em;
+}
+
+.top-navbar-redwood .navbar-form {
+  margin-top: 13px;
+}
+
+.top-navbar-redwood .search {
+  border-radius: 32px;
+  font-family: "FreightSansPro", sans-serif;
+  font-size: 14px;
+  width: 180px;
+  display: block;
+  transition: width 220ms ease;
+}
+
+.top-navbar-redwood .search.grow {
+  width: 300px;
+}
+
+.navbar-toggle {
+  background: #eee;
+  margin-top: 12px;
+}
+
+.navbar-toggle .icon-bar {
+  background: #aaa;
+}
+
+.top-navbar {
+  background-color: transparent;
+  border-color: transparent;
+  min-height: auto;
+  position: relative;
+  /*top: -65px;*/
+  font-size: 20px;
+  width: auto;
+  border-bottom: none;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  /*padding-bottom: 40px;*/
+  padding-left: 0px;
+  /*padding: 40px 0px;*/
+}
+
+.navbar-brand {
+  padding: 0 15px;
+  height: 96px;
+}
+
+@media (min-width: 768px) {
+  .top-navbar-nav {
+    position: relative;
+    right: -50%;
+  }
+
+  .top-navbar-nav > li {
+    position: relative;
+    left: -50%;
+  }
+
+  .top-navbar-nav > li a {
+    /*line-height: 126px;*/
+    vertical-align: 100px;
+    padding: 0 24px;
+  }
+}
+
+@media (min-width: 992px) {
+  .top-navbar-nav > li a {
+    padding: 0 48px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .top-navbar-nav > li a {
+    padding: 0 48px;
+  }
+}
+
+.top-navbar-nav > li.before-move-up {
+  position: relative;
+}
+
+.top-navbar-nav > li > a.move-up {
+  position: relative;
+  top: 50%;
+  height: 160px;
+  margin-top: -80px;
+}
+
+.top-nav {
+  z-index: 100;
+  float: right;
+}
+
+.mid-navbar-redwood {
+  background: #fff;
+  /*border-bottom: 1px solid rgba(0,0,0,.1);*/
+  border-radius: 0;
+  min-height: 60px;
+}
+
+.mid-navbar-redwood .nav {
+  color: #b8b8b8;
+  font-family: "FreightSansPro", sans-serif;
+  font-size: 12px;
+  /*overflow: hidden;*/
+}
+
+.mid-navbar-redwood .nav a {
+  color: #b8b8b8;
+  letter-spacing: .1em;
+  margin-left: 32px;
+  padding: 20px 0;
+  text-transform: uppercase;
+  -webkit-backface-visibility: hidden;
+}
+
+.mid-navbar-redwood .nav a:before {
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 100%;
+  height: 2px;
+  background: #b8b8b8;
+  content: '';
+  transition: all 100ms ease;
+  opacity: 0;
+}
+
+.mid-navbar-redwood .nav a:hover,
+.mid-navbar-redwood .nav a:focus {
+  background: transparent;
+}
+
+.mid-navbar-redwood .nav a:hover:before,
+.mid-navbar-redwood .nav a:focus:before {
+  opacity: 1;
+  bottom: 0;
+}
+
+.mid-navbar-redwood .nav .active a {
+  color: #3c3c3c;
+  font-weight: bold;
+  position: relative;
+}
+
+.mid-navbar-redwood .nav .active a:before {
+  bottom: 0;
+  height: 2px;
+  background: #3c3c3c;
+  opacity: 1;
+}
+
+.mid-navbar-redwood .navbar-brand {
   color: #3c3c3c;
   font-weight: 900;
   font-size: 32px;
@@ -670,11 +833,11 @@ code {
   text-align: center;
 }
 
-.navbar-redwood .navbar-form {
+.mid-navbar-redwood .navbar-form {
   margin-top: 13px;
 }
 
-.navbar-redwood .search {
+.mid-navbar-redwood .search {
   border-radius: 32px;
   font-family: "FreightSansPro", sans-serif;
   font-size: 14px;
@@ -683,37 +846,20 @@ code {
   transition: width 220ms ease;
 }
 
-.navbar-redwood .search.grow {
+.mid-navbar-redwood .search.grow {
   width: 300px;
 }
 
-/*.navbar-toggle {
-	background: #eee;
-	margin-top: 12px;
-
-	.icon-bar {
-		background: #aaa;
-	}
-}
-.navbar-header {
-    float:none;
-    display: inline-block;
-}
-@media (min-width: 768px) {
-    .navbar-collapse.collapse {
-        display: inline-block !important;
-    }
-}
-.navbar .navbar-nav {
-    display: inline-block;
-    float: none;
+.navbar-toggle {
+  background: #eee;
+  margin-top: 12px;
 }
 
-.navbar .navbar-collapse {
-    text-align: center;
-}*/
+.navbar-toggle .icon-bar {
+  background: #aaa;
+}
 
-.navbar {
+.mid-navbar {
   background-color: transparent;
   border-color: transparent;
   min-height: auto;
@@ -736,17 +882,17 @@ code {
 }
 
 @media (min-width: 768px) {
-  .navbar-nav {
+  .mid-navbar-nav {
     position: relative;
     right: -50%;
   }
 
-  .navbar-nav > li {
+  .mid-navbar-nav > li {
     position: relative;
     left: -50%;
   }
 
-  .navbar-nav > li a {
+  .mid-navbar-nav > li a {
     /*line-height: 126px;*/
     vertical-align: 100px;
     padding: 0 24px;
@@ -754,22 +900,22 @@ code {
 }
 
 @media (min-width: 992px) {
-  .navbar-nav > li a {
+  .mid-navbar-nav > li a {
     padding: 0 48px;
   }
 }
 
 @media (min-width: 1200px) {
-  .navbar-nav > li a {
+  .mid-navbar-nav > li a {
     padding: 0 48px;
   }
 }
 
-.navbar-nav > li.before-move-up {
+.mid-navbar-nav > li.before-move-up {
   position: relative;
 }
 
-.navbar-nav > li > a.move-up {
+.mid-navbar-nav > li > a.move-up {
   position: relative;
   top: 50%;
   height: 160px;

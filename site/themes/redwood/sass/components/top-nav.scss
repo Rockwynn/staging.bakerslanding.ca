@@ -1,6 +1,6 @@
-.navbar-redwood {
+.top-navbar-redwood {
     background: #fff;
-	/*border-bottom: 1px solid rgba(0,0,0,.1);*/
+	border-bottom: 1px solid rgba(0,0,0,.1);
 	border-radius: 0;
 	min-height: 60px;
 
@@ -9,6 +9,7 @@
 		font-family: $font_sans;
 		font-size: 12px;
 		/*overflow: hidden;*/
+        /*z-index: 100;*/
 	}
 
 	.nav a {
@@ -58,7 +59,6 @@
 		height: 60px;
 		padding: 20px 15px;
 		letter-spacing: -.05em;
-        text-align: center;
 	}
 
 	.navbar-form {
@@ -79,7 +79,7 @@
 }
 
 
-/*.navbar-toggle {
+.navbar-toggle {
 	background: #eee;
 	margin-top: 12px;
 
@@ -87,33 +87,13 @@
 		background: #aaa;
 	}
 }
-.navbar-header {
-    float:none;
-    display: inline-block;
-}
-@media (min-width: 768px) {
-    .navbar-collapse.collapse {
-        display: inline-block !important;
-    }
-}
-.navbar .navbar-nav {
-    display: inline-block;
-    float: none;
-}
 
-.navbar .navbar-collapse {
-    text-align: center;
-}*/
-
-
-
-
-.navbar {
+.top-navbar {
   background-color: transparent;
   border-color: transparent;
   min-height: auto;
   position: relative;
-  top: -65px;
+  /*top: -65px;*/
   font-size: 20px;
   width: auto;
   border-bottom: none;
@@ -130,15 +110,15 @@
 }
 
 @media (min-width: 768px) {
-  .navbar-nav {
+  .top-navbar-nav {
     position: relative;
     right: -50%;
   }
-  .navbar-nav > li {
+  .top-navbar-nav > li {
     position: relative;
     left: -50%;
   }
-  .navbar-nav > li a {
+  .top-navbar-nav > li a {
     /*line-height: 126px;*/
     vertical-align: 100px;
     padding: 0 24px;
@@ -146,22 +126,31 @@
 }
 
 @media (min-width: 992px) {
-  .navbar-nav > li a {
+  .top-navbar-nav > li a {
     padding: 0 48px;
   }
 }
 
 @media (min-width: 1200px) {
-  .navbar-nav > li a {
+  .top-navbar-nav > li a {
     padding: 0 48px;
 }
 }
-.navbar-nav>li.before-move-up {
+.top-navbar-nav>li.before-move-up {
     position: relative;
 }
-.navbar-nav>li>a.move-up {
+.top-navbar-nav>li>a.move-up {
     position: relative;
     top: 50%;
     height: 160px;
     margin-top: -80px;
+}
+
+
+
+
+
+.top-nav {
+    z-index: 100;
+    float: right;
 }
