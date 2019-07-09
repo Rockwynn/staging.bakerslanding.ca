@@ -1,4 +1,4 @@
-<section class="regular">
+<!--<section class="regular">
     <div class="date">
         {{ date format="F j, Y" }}
     </div>
@@ -16,26 +16,26 @@
 	</section>
 
     <div class="read-more">
-        <!--<a href="{{ link to='blog' }}">Read the rest of the blog</a>-->
+        <a href="{{ link to='blog' }}">Read the rest of the blog</a>
     </div>
 
-</section>
+</section>-->
 
 
 <section class="container-fluid">
 
 	<header>
-		<h1>{{ title }}</h1>
-		{{ content_raw wrap="h2" }}
+		<h1 class="centered">Welcome!</h1>
+        <h2 class="uppercase">Come and enjoy the beautiful seasons in Almaguin Highlands.  Great relaxing and good fishing too!  Boat rentals nearby.  Well behaved pet welcome.</h2>
 	</header>
 
     <div class="tiles">
         {{ collection:home-page-3up }}
-        <!--<a href="http://amzn.com/{{ amazon_id }}" class="item">-->
-            <div class="image" style="background-image: url('{{ photo }}');">
+        <a class="item">
+            <div class="image" style="background-image: url({{ photo }});">
                 <h3 class="caption">{{ title }}</h3>
             </div>
-        <!--</a>-->
+        </a>
         {{ /collection:home-page-3up }}
     </div>
 
