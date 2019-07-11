@@ -158,20 +158,27 @@ footer.article-footer {
 }
 
 footer.page {
-    background: $color_blue;
-	padding: ($gap * 2) 0;
+	background-position-x: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: relative;
+	overflow: hidden;height: 367px;
+	background-color: #462587;
+    /*background-color: $color_dark;*/
+	/*padding: ($gap * 2) 0;*/
 	text-align: center;
-	p.copyright {
+	p.copyright, p.copyright>span>a, p.copyright>span>a:hover, p.copyright>span>a:focus {
 		font-family: $font_sans;
-		font-weight: 900;
+		font-weight: 600;
 		font-size: 14px;
 		color: $color_white;
 	}
-	p.tribute {
+	p.tribute, p.tribute a {
 		color: $color_white;
 		font-size: 13px;
 		text-transform: uppercase;
 		letter-spacing: .5em;
+		font-weight: 600;
 	}
 }
 

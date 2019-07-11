@@ -67,6 +67,33 @@ body {
   margin: 0 auto;
 }
 
+.phone a {
+  color: #ffffff;
+  font-family: "FreightSansPro", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.phone,
+.phone a:hover,
+phone a:focus {
+  /*text-decoration: none;*/
+}
+
+.myemail,
+.myemail a:hover,
+.myemail a:focus {
+  color: #ffffff;
+  /*text-decoration: none;*/
+}
+
+.myemail > span > a,
+.myemail > span > a:hover,
+.myemail > span > a:focus {
+  color: #2677ad;
+  font-weight: 600;
+}
+
 .regular {
   padding: 64px 16px;
   /*padding-bottom: ($gap * 2);
@@ -234,23 +261,35 @@ footer.article-footer {
 }
 
 footer.page {
-  background: #2677ad;
-  padding: 64px 0;
+  background-position-x: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  height: 367px;
+  background-color: #462587;
+  /*background-color: $color_dark;*/
+  /*padding: ($gap * 2) 0;*/
   text-align: center;
 }
 
-footer.page p.copyright {
+footer.page p.copyright,
+footer.page p.copyright > span > a,
+footer.page p.copyright > span > a:hover,
+footer.page p.copyright > span > a:focus {
   font-family: "FreightSansPro", sans-serif;
-  font-weight: 900;
+  font-weight: 600;
   font-size: 14px;
   color: #ffffff;
 }
 
-footer.page p.tribute {
+footer.page p.tribute,
+footer.page p.tribute a {
   color: #ffffff;
   font-size: 13px;
   text-transform: uppercase;
   letter-spacing: .5em;
+  font-weight: 600;
 }
 
 .section-home-page-3up {
@@ -906,12 +945,12 @@ code {
 @media (min-width: 768px) {
   .mid-navbar-nav {
     position: relative;
-    right: -50%;
+    right: -45%;
   }
 
   .mid-navbar-nav > li {
     position: relative;
-    left: -55%;
+    left: -46%;
   }
 
   .mid-navbar-nav > li a {

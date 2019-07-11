@@ -13,3 +13,20 @@ body {
     float: none;
     margin: 0 auto;
 }
+.phone a {
+	color: $color_white;
+	font-family: $font_sans;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.phone, .phone a:hover, phone a:focus {
+    /*text-decoration: none;*/
+}
+.myemail, .myemail a:hover, .myemail a:focus {
+	color: $color_white;
+	/*text-decoration: none;*/
+}
+.myemail>span>a, .myemail>span>a:hover, .myemail>span>a:focus {
+	color: $color_blue;
+	font-weight: 600;
+}
