@@ -11,14 +11,18 @@
                 </div>
                 <div class="collapse navbar-collapse" id="nav-main">
                         <ul class="nav mid-navbar-nav navbar-nav">
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/about">About Us</a></li>
-                            <li><a href="/blog">Blog</a></li>
-                            <li class="invisible hidden-xs before-move-up"><a href="#" class="move-up"><img src="/assets/150x50.png" alt="" width="150" /></a></li>
+                            <li class="hidden-xs"><a href="/">Home</a></li>
+                            <li class="hidden-xs"><a href="/about">Our Cottage</a></li>
+                            <li class="hidden-xs"><a href="/gallery">Gallery</a></li>
+                            <li class="invisible hidden-xs before-move-up"><a href="#" class="move-up"><img src="/assets/logos-misc/150x50.png" alt="" width="150" /></a></li>
                             <!-- SW leave the above line there, it's invisible but holds space for the logo in the header image-->
-                            <li><a href="gallery">Gallery</a></li>
-                            <li><a href="/things">Things</a></li>
-                            <li><a href="contact">Contact</a></li>
+                            <li class="hidden-xs"><a href="amenities">Amenities</a></li>
+                            <li class="hidden-xs"><a href="/map">Map</a></li>
+                            <li class="hidden-xs"><a href="contact">Contact</a></li>
+
+
+
+<!-- start of page loop for mobile nav -->
                             {{ nav from="/" max_depth="2" include_home="true" scope="tag" }}
 
                                 {{ if !children }}
@@ -45,5 +49,7 @@
                             {{ /nav }}
                         </ul>
                 </div>
+
+
         </div>
 </nav>
