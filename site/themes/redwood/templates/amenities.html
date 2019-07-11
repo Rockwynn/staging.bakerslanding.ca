@@ -1,15 +1,13 @@
 <section class="regular">
-
 	<header>
-		<h1>{{ title }}</h1>
-		{{ sub_title wrap="h2" }}
-        {{ sub_heading wrap="h4" }}
+		<h1 class="bright-blue">{{ title }}</h1>
+		<h2 class="bright-blue">{{ sub_title }}</h2>
+		<h4>{{ sub_heading }}</h4>
 	</header>
-
 	<article class="content">
 		{{ content }}
-		<h2>Fun Facts</h2>
+		<!--<h2>Fun Facts</h2>-->
+		<h2></h2>
 		{{ fun_facts | ul }}
 	</article>
-
 </section>

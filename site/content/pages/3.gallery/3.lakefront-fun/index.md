@@ -1,3 +1,4 @@
+---
 title: 'Lakefront Fun'
 images:
   - /assets/lake-property/sunset-jeffs.jpg
@@ -19,5 +20,7 @@ images:
   - /assets/lake-property/skye-fishing.jpg
   - /assets/lake-property/skye-with-fish.jpg
   - /assets/lake-property/sunset-green-bay.jpg
+template: gallery
 fieldset: gallery
 id: 921f288f-7c10-47bf-94aa-91ffa1aa907f
+---

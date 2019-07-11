@@ -46,7 +46,7 @@
 body {
   background: #fff;
   color: #3c3c3c;
-  font-family: "FreightTextPro", serif;
+  font-family: "FreightSansPro", sans-serif;
   font-size: 18px;
 }
 
@@ -234,7 +234,7 @@ footer.article-footer {
 }
 
 footer.page {
-  background: #fff;
+  background: #2677ad;
   padding: 64px 0;
   text-align: center;
 }
@@ -243,10 +243,11 @@ footer.page p.copyright {
   font-family: "FreightSansPro", sans-serif;
   font-weight: 900;
   font-size: 14px;
+  color: #ffffff;
 }
 
 footer.page p.tribute {
-  color: #222;
+  color: #ffffff;
   font-size: 13px;
   text-transform: uppercase;
   letter-spacing: .5em;
@@ -402,7 +403,7 @@ section header h2 {
 }
 
 article.content p {
-  font-family: "FreightTextPro", serif;
+  font-family: "FreightSansPro", sans-serif;
   font-size: 18px;
   line-height: 32px;
   margin: 0 0 32px;

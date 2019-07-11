@@ -1,8 +1,8 @@
 ---
 title: Amenities
-template:
+template: amenities
 fieldset: about
-id: 61e75e90-76c9-4ebc-8a97-6e7d03c005b7
+id: a4df12ea-b598-4d6e-a1fa-61a78f2f2fd4
 fun_facts:
   - 'Air Conditioning, Central Vacuum Cleaner'
   - 'Washer & Dryer, Fridge & Stove'
@@ -10,7 +10,7 @@ fun_facts:
   - 'Generac Automatic Generator'
   - 'Coffee Maker, Toaster, Dishes, Cutlery'
   - 'Pots & Pans, Kitchen Appliances'
-  - 'Entertainment'
+  - Entertainment
   - 'Stereo System, iPod dock'
   - 'Satellite TV, PVR, Flat Screen TV'
   - 'DVD player'

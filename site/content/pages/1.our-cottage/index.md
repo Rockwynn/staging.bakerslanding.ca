@@ -1,13 +1,14 @@
 ---
-title: Our Cottage
+title: Our-Cottage
 sub_title: FUN FOR THE WHOLE FAMILY
-sub_heading: Come out and enjoy our beautiful Lake Cecebe cottage.
 template: about
 fieldset: about
-id: 72c016c6-cc0a-4928-b53b-3275f3f6da0a
+id: c2334d7d-8eea-4445-98c8-df99aa60ef8a
 fun_facts:
 ---
 ![Jeff's Dock](/assets/our-cottage/8038.jpg)
+
+Come out and enjoy our beautiful Lake Cecebe cottage.
 
 Set in the beautiful Almaguin Highlands, this beautiful 2-storey, 3 bedroom home is a very comfortable, peaceful
 and relaxing home-away-from-home. Enjoy the 40+ miles of boating pleasure on scenic Lake Cecebe and through the
