@@ -910,7 +910,7 @@ code {
 
   .mid-navbar-nav > li {
     position: relative;
-    left: -50%;
+    left: -55%;
   }
 
   .mid-navbar-nav > li a {
@@ -935,16 +935,18 @@ code {
   }
 }
 
-.mid-navbar-nav > li.before-move-up {
-  position: relative;
+/*.mid-navbar-nav>li.before-move-up {
+    position: relative;
+    margin-left: 64px;
 }
-
-.mid-navbar-nav > li > a.move-up {
-  position: relative;
-  top: 50%;
-  height: 160px;
-  margin-top: -80px;
-}
+.mid-navbar-nav>li>a.move-up {
+    position: relative;
+    top: 50%;
+    height: 160px;
+    margin-top: -80px;
+    margin-left: 0px;
+    padding-left: 164px;
+}*/
 
 .tags {
   display: block;

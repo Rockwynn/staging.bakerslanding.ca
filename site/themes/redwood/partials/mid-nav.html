@@ -13,10 +13,22 @@
                         <ul class="nav mid-navbar-nav navbar-nav">
                             <li class="hidden-xs"><a href="/">Home</a></li>
                             <li class="hidden-xs"><a href="/about">Our Cottage</a></li>
-                            <li class="hidden-xs"><a href="/gallery">Gallery</a></li>
-                            <li class="invisible hidden-xs before-move-up"><a href="#" class="move-up"><img src="/assets/logos-misc/150x50.png" alt="" width="150" /></a></li>
-                            <!-- SW leave the above line there, it's invisible but holds space for the logo in the header image-->
                             <li class="hidden-xs"><a href="amenities">Amenities</a></li>
+                            <li class="invisible hidden-xs before-move-up"><a href="/" class="move-up"><img src="/assets/logos-misc/150x50.png" alt="" width="150" /></a></li>
+                            <!-- SW leave the above line there, it's invisible but holds space for the logo in the header image-->
+
+                            <!--<li class="hidden-xs"><a href="/gallery">Gallery</a></li>-->
+                            <li class="hidden-xs nav-item dropdown{{ if is_current }} active {{ endif }}">
+                                <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown{{ id }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Gallery
+                                    <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown{{ id }}">
+                                    <li{{ if is_current or is_parent }} class="active"{{ /if }}><a class="hidden-xs dropdown-item" href="/our-home">Our Home</a></li>
+                                    <li{{ if is_current or is_parent }} class="active"{{ /if }}><a class="hidden-xs dropdown-item" href="/our-property">Our Property</a></li>
+                                    <li{{ if is_current or is_parent }} class="active"{{ /if }}><a class="hidden-xs dropdown-item" href="/lakefront-fun">Lakefront Fun</a></li>
+                                    <li{{ if is_current or is_parent }} class="active"{{ /if }}><a class="hidden-xs dropdown-item" href="/magnetawan-lions-park">Magnetawan</a></li>
+                                </ul>
+                            </li>
                             <li class="hidden-xs"><a href="/map">Map</a></li>
                             <li class="hidden-xs"><a href="contact">Contact</a></li>
 
