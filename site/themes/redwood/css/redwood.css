@@ -264,10 +264,10 @@ footer.page {
   background-position-x: center;
   background-size: contain;
   background-repeat: no-repeat;
-  position: relative;
-  overflow: hidden;
-  height: 367px;
-  background-color: #462587;
+  /*position: relative;
+	overflow: hidden;
+	height: 367px;*/
+  background-color: #000;
   /*background-color: $color_dark;*/
   /*padding: ($gap * 2) 0;*/
   text-align: center;
@@ -290,6 +290,14 @@ footer.page p.tribute a {
   text-transform: uppercase;
   letter-spacing: .5em;
   font-weight: 600;
+}
+
+footer.page section.page {
+  padding-bottom: 50px;
+}
+
+footer.page section.page div.content {
+  padding-top: 190px;
 }
 
 .section-home-page-3up {
