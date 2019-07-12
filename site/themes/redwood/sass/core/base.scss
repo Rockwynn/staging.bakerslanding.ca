@@ -30,3 +30,39 @@ body {
 	color: $color_blue;
 	font-weight: 600;
 }
+.rounded {
+  border-radius: 2.0rem;
+}
+.p-0 {
+  padding: 0;
+}
+
+.p-1 {
+  padding: 8px;
+}
+
+.p-2 {
+  padding: 16px;
+}
+
+.p-3 {
+  padding: 24px;
+}
+
+.p-4 {
+  padding: 40px;
+}
+
+.p-5 {
+  padding: 64px;
+}
+
+.p-6 {
+  padding: 80px;
+}
+.white-text {
+	color: $color_white;
+}
+.blue-text {
+	color: $color_blue;
+}

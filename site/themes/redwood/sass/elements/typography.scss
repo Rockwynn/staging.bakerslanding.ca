@@ -252,3 +252,35 @@ code {
 .bright-blue {
 	color: #2667ad;
 }
+.bright-blue-bg {
+	background-color: $color_blue;
+}
+.white-bg {
+	background-color: $color_white;
+}
+.blue-heading {
+	font-size: 36px;
+	text-align: center;
+	color: $color_blue;
+}
+.blue-sub-heading {
+	font-family: $font_sans;
+	font-size: 32px;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-align: center;
+	color: $color_blue;
+}
+.white-heading {
+	font-size: 36px;
+	text-align: center;
+	color: $color_white;
+}
+.white-sub-heading {
+	font-family: $font_sans;
+	font-size: 32px;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-align: center;
+	color: $color_white;
+}

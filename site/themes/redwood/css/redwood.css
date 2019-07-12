@@ -94,6 +94,46 @@ phone a:focus {
   font-weight: 600;
 }
 
+.rounded {
+  border-radius: 2.0rem;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.p-1 {
+  padding: 8px;
+}
+
+.p-2 {
+  padding: 16px;
+}
+
+.p-3 {
+  padding: 24px;
+}
+
+.p-4 {
+  padding: 40px;
+}
+
+.p-5 {
+  padding: 64px;
+}
+
+.p-6 {
+  padding: 80px;
+}
+
+.white-text {
+  color: #ffffff;
+}
+
+.blue-text {
+  color: #2677ad;
+}
+
 .regular {
   padding: 64px 16px;
   /*padding-bottom: ($gap * 2);
@@ -313,7 +353,7 @@ footer.page section.page div.content {
 }
 
 .read-more {
-  margin-top: 96px;
+  margin-top: 64px;
   font-family: "FreightSansPro", sans-serif;
   text-align: center;
   display: block;
@@ -636,6 +676,44 @@ code {
 
 .bright-blue {
   color: #2667ad;
+}
+
+.bright-blue-bg {
+  background-color: #2677ad;
+}
+
+.white-bg {
+  background-color: #ffffff;
+}
+
+.blue-heading {
+  font-size: 36px;
+  text-align: center;
+  color: #2677ad;
+}
+
+.blue-sub-heading {
+  font-family: "FreightSansPro", sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  color: #2677ad;
+}
+
+.white-heading {
+  font-size: 36px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.white-sub-heading {
+  font-family: "FreightSansPro", sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
 }
 
 .gallery header {
