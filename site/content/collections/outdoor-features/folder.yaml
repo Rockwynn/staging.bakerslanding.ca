@@ -1,0 +1,6 @@
+title: Outdoor Features
+fieldset: about
+template: amenities
+columns:
+  - title
+  - slug

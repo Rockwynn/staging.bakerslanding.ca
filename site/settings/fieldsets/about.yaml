@@ -10,6 +10,9 @@ fields:
   content:
     type: markdown
     display: Content
-  fun_facts:
+  amenities:
     type: list
-    display: Fun Facts
+    display: amenities
+  photo:
+    display: Image URL
+    type: text

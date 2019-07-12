@@ -2,29 +2,29 @@
 title: Amenities
 template: amenities
 fieldset: about
+mount: amenities
 id: a4df12ea-b598-4d6e-a1fa-61a78f2f2fd4
-fun_facts:
+amenities:
   - 'Air Conditioning, Central Vacuum Cleaner'
   - 'Washer & Dryer, Fridge & Stove'
   - 'Dishwasher, Microwave, BBQ'
   - 'Generac Automatic Generator'
   - 'Coffee Maker, Toaster, Dishes, Cutlery'
   - 'Pots & Pans, Kitchen Appliances'
-  - Entertainment
+entertainment:
   - 'Stereo System, iPod dock'
   - 'Satellite TV, PVR, Flat Screen TV'
   - 'DVD player'
-  - 'Outdoors Features'
+outdoor-features:
   - '2 Outdoor Decks, BBQ'
   - '48′ Dock'
   - '17 Langford canoe'
   - '4-5 seat Future Beach pedal boat'
   - '6 adult-sized life jackets (2 small, 2 medium and 2 large)'
   - 'Fire Pit'
-  - 'Summer Activities (nearby)'
+summer-activities:
   - 'Canoeing, Fishing, Golf, Theater'
   - 'Hiking, Echo Rock, Horseback Riding'
   - 'Public beach with Children’s Play Area'
   - '& Picnic Area, accessible by Boat'
 ---
-There is a second fridge and an additional shower in the basement, along with the washer and dryer. The nearest Hospital is in Huntsville which is a 45 minute drive. There are doctors in Burks Falls, by appointment only. Swimming is great off the dock. A well mannered friendly leashed dog is welcome and we support the “poop and scoop” program. A maximum of 2 dogs are allowed. Excessive barking is not permitted. The fire pit is right beside the water and firewood is supplied.

@@ -20,6 +20,7 @@ images:
   - /assets/lake-property/skye-fishing.jpg
   - /assets/lake-property/skye-with-fish.jpg
   - /assets/lake-property/sunset-green-bay.jpg
+page_url: /gallery/magnetawan-lions-park
 template: gallery
 fieldset: gallery
 id: 921f288f-7c10-47bf-94aa-91ffa1aa907f

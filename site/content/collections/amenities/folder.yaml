@@ -1,0 +1,6 @@
+title: Amenities
+fieldset: about
+template: amenities
+columns:
+  - title
+  - slug

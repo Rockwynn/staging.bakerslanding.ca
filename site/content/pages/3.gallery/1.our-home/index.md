@@ -1,3 +1,4 @@
+---
 title: 'Our Home'
 images:
   - /assets/house-indoor/8004.jpg
@@ -14,6 +15,8 @@ images:
   - /assets/house-indoor/8027.jpg
   - /assets/house-indoor/8023.jpg
   - /assets/house-indoor/8021.jpg
+page_url: /gallery/our-property
 template: gallery
 fieldset: gallery
 id: b6adcc99-6df2-4cf8-84b8-7189d0a90661
+---

@@ -1,5 +1,5 @@
 ---
-title: Our-Cottage
+title: Our Cottage
 sub_title: FUN FOR THE WHOLE FAMILY
 template: about
 fieldset: about
@@ -54,3 +54,7 @@ cottage rental firms. Information on the form will be kept private.
 We hope you like our site, and look forward to talking with you.
 
 ![Jeff's Dock](/assets/our-cottage/jeffs-dock-2-chairs-960x250.jpg)
+
+<div class="read-more">
+    <a href="/amenities">View Our Amenities</a>
+</div>
