@@ -1,0 +1,90 @@
+title: 'Rental Application'
+honeypot: username
+fields:
+  checkindate:
+    display: 'Check in Date - Saturday'
+  checkoutdate:
+    display: 'Check out Date'
+  name:
+    display: Name
+    validate: 'required'
+  phonenumber:
+    display: 'Phone Number'
+  email:
+    display: 'Email Address'
+    validate: required|email
+  secondaryphonenumber:
+    display: 'Secondary Phone Number'
+  address:
+    display: Address
+  city:
+    display: City
+  provincestate:
+    display: Province/State
+  postalzipcode:
+    display: 'Postal Code - Zip Code'
+  numberyearsataddress:
+    display: 'Number of Years at Address'
+  ownrent:
+    display: Own/Rent
+  businessphone:
+    display: 'Business Phone'
+  ext:
+    display: Extension
+  employersname:
+    display: 'Employers Name'
+  employersaddress:
+    display: 'Employers Address'
+  jobtitle:
+    display: 'Job Title'
+  lengthemployed:
+    display: 'Length of Employment at current Job'
+  driverslicensenumber:
+    display: 'Drivers License Number'
+  licenseplatenumber:
+    display: 'License Plate Number'
+  homerenterinsurance:
+    display: 'Home/Renter Insurance Provider'
+  policynumber:
+    display: 'Policy Number'
+  alloccupants:
+    display: 'Names, Addresses and Phone Numbers of ALL Adults and Children occupying Baker''s Landing (including the ages of all children.)'
+  doginfo:
+    display: 'Are you bringing a Dog? A maximum of 2 dogs are allowed. Please provide details of age, breed ,size, temperament and training.'
+  dayovernightguests:
+    display: 'Are you bringing any day or overnight Guests? Please provide their names and dates of their visit.'
+  comments:
+    display: 'Please use the area below to add any additional Details, Questions or Comments you may have.'
+columns:
+  - checkindate
+  - checkoutdate
+  - name
+  - phonenumber
+  - email
+  - secondaryphonenumber
+  - address
+  - city
+  - provincestate
+  - postalzipcode
+  - numberyearsataddress
+  - ownrent
+  - businessphone
+  - ext
+  - employersname
+  - employersaddress
+  - jobtitle
+  - lengthemployed
+  - driverslicensenumber
+  - licenseplatenumber
+  - homerenterinsurance
+  - policynumber
+  - alloccupants
+  - doginfo
+  - dayovernightguests
+  - comments
+email:
+  -
+    to: info@bakerslanding.ca
+    from: info@bakerslanding.ca
+    reply_to: '{{email}}'
+    subject: 'BL - Rental Application Submission'

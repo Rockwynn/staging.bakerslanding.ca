@@ -1,6 +1,7 @@
 ---
 title: Rates
-sub_title: PLEASE NOTE - This is a family oriented home and not suitable for groups looking to party.
+heading: Rental Pricing
+sub_heading: PLEASE NOTE - This is a family oriented home and not suitable for groups looking to party.
 template: about
 fieldset: about
 id: 0c039249-f952-4871-99a0-909b5f2bc201

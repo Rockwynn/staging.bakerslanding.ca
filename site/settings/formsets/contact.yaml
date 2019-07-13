@@ -1,28 +1,38 @@
-title: Contact Me
-
+title: 'Contact Me'
+honeypot: state
 fields:
   name:
     display: Name
-    validate: required|min:2
+    validate: 'required|min:2'
   email:
-    display: Email Address
+    display: 'Email Address'
     validate: required|email
   number:
-    display: Favorite Number
+    display: 'Favorite Number'
     validate: integer
   comment:
     display: Comment
-
+columns:
+  - name
+  - email
+  - number
+  - comment
 metrics:
   -
     type: total
-    label: Total Responses
+    label: 'Total Responses'
   -
     type: sum
+    label: 'Sum of Favorite Number'
     field: number
-    label: Sum of Favorite Number
   -
     type: average
+    label: 'Average Favorite Number'
     field: number
-    label: Average Favorite Number
     precision: 1
+email:
+  -
+    to: info@bakerslanding.ca
+    from: info@bakerslanding.ca
+    reply_to: '{{email}}'
+    subject: 'BL - Contact Form Submission'

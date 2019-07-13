@@ -7,8 +7,9 @@
 	</header>
 
 	<article class="content">
-		<h1 class="blue-heading">{{ title }}</h1>
-		<h2 class="blue-sub-heading">{{ sub_title }}</h2>
+		<h1 class="blue-heading">{{ heading or title }}</h1>
+		<h2 class="blue-sub-heading">{{ sub_heading }}</h2>
+		<p>{{ sub_sub_heading }}</p>
 		{{ content }}
 		<!--<h2>Fun Facts</h2>-->
 		<h2></h2>
@@ -16,3 +17,6 @@
 	</article>
 
 </section>
+<div class="read-more">
+    <a href="/{{ page_url }}">{{ readmoretext }}</a>
+</div>

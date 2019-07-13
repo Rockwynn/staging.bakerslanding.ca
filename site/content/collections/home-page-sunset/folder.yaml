@@ -1,6 +1,5 @@
 title: Sunset
 fieldset: home
-template: home
 columns:
   - title
   - slug

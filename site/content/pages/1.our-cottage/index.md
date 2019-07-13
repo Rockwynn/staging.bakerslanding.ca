@@ -1,7 +1,9 @@
 ---
 title: Our Cottage
-sub_title: FUN FOR THE WHOLE FAMILY
-template: about
+sub_heading: FUN FOR THE WHOLE FAMILY
+page_url: amenities
+readmoretext: View our Amenities
+template: sidebar
 fieldset: about
 id: c2334d7d-8eea-4445-98c8-df99aa60ef8a
 fun_facts:
@@ -54,7 +56,3 @@ cottage rental firms. Information on the form will be kept private.
 We hope you like our site, and look forward to talking with you.
 
 ![Jeff's Dock](/assets/our-cottage/jeffs-dock-2-chairs-960x250.jpg)
-
-<div class="read-more">
-    <a href="/amenities">View Our Amenities</a>
-</div>

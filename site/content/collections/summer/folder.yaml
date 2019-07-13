@@ -1,6 +1,5 @@
 title: Summer
 fieldset: about
-template: amenities
 columns:
   - title
   - slug
