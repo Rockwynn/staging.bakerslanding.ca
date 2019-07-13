@@ -3,6 +3,9 @@ fields:
   title:
     type: text
     width: 66
+  readmoretext:
+    type: text
+    width: 66
   slug:
     type: text
     width: 33

@@ -38,7 +38,6 @@ id: 0c039249-f952-4871-99a0-909b5f2bc201
         <p class="white-text">Minimum low season stay is 4 nights</p>
     </article>
 </section>
-***If you see a part week on the availability calendar please ask. – We will consider stays with a minimum of 4 nights in June and September.***
 <section class="regular rounded">
     <article class="content rounded p-3 bright-blue-bg">
         <h1 class="white-sub-heading"Terms and Conditions</h1>

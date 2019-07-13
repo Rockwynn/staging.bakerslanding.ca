@@ -694,7 +694,7 @@ code {
 
 .blue-sub-heading {
   font-family: "FreightSansPro", sans-serif;
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 300;
   text-transform: uppercase;
   text-align: center;
@@ -709,7 +709,7 @@ code {
 
 .white-sub-heading {
   font-family: "FreightSansPro", sans-serif;
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 300;
   text-transform: uppercase;
   text-align: center;
@@ -1196,4 +1196,13 @@ img.zoom-img {
 .zoom-overlay-open,
 .zoom-overlay-transitioning {
   cursor: default;
+}
+
+h1.ac-title {
+  font-family: "FreightSansPro", sans-serif;
+  font-size: 28px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  color: #2677ad;
 }
