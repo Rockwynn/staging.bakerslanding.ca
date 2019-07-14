@@ -1,5 +1,6 @@
 ---
 title: 'Lakefront Fun'
+heading: Summer Fun Gallery
 images:
   - /assets/lake-property/sunset-jeffs.jpg
   - /assets/lake-property/2-chairs-on-dock.jpg
@@ -20,7 +21,7 @@ images:
   - /assets/lake-property/skye-fishing.jpg
   - /assets/lake-property/skye-with-fish.jpg
   - /assets/lake-property/sunset-green-bay.jpg
-page_url: /gallery/magnetawan-lions-park
+page_url: /gallery/magnetawan
 template: gallery
 fieldset: gallery
 id: 921f288f-7c10-47bf-94aa-91ffa1aa907f

@@ -1,5 +1,6 @@
 ---
 title: 'Our Home'
+heading: Home Gallery 
 images:
   - /assets/house-indoor/8004.jpg
   - /assets/house-indoor/0008.jpg

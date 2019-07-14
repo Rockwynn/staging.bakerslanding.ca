@@ -1,7 +1,7 @@
 ---
 title: Contact
-heading: Get in touch
-sub_heading: Baker's Landing
+heading:
+sub_heading: Contact Baker's Landing
 sub_sub_heading: Feel free to contact us, we are here to answer any questions. Jeff or Kathy Baker
 page_url: rates
 readmoretext: View our Rates

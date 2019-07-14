@@ -1,5 +1,6 @@
 ---
 title: 'Our Property'
+heading: Property Gallery
 images:
   - /assets/house-outdoor/6661.jpg
   - /assets/house-outdoor/1942.jpg
