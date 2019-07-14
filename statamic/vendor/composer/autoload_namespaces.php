@@ -11,7 +11,6 @@ return array(
     'Netcarver\\Textile' => array($vendorDir . '/netcarver/textile/src'),
     'Michelf' => array($vendorDir . '/michelf/php-markdown', $vendorDir . '/michelf/php-smartypants'),
     'JakubOnderka\\PhpConsoleHighlighter' => array($vendorDir . '/jakub-onderka/php-console-highlighter/src'),
-    'Imgix\\' => array($vendorDir . '/imgix/imgix-php/src'),
     'Dotenv' => array($vendorDir . '/vlucas/phpdotenv/src'),
     'AlgoliaSearch' => array($vendorDir . '/algolia/algoliasearch-client-php/src'),
 );
