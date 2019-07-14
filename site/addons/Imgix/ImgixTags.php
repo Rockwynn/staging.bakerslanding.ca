@@ -51,7 +51,7 @@ class ImgixTags extends Tags
         $html = '';
 
         /*foreach($img_attributes as $key => $val) { sw changed this line to enable imgix addon srcset 3 to work */
-        foreach(img_attributes as $key => $val) {
+        foreach($img_attributes as $key => $val) {
         //while (list($key, $val) = each($img_attributes)) {
             $html .= " $key=\"$val\"";
         }
