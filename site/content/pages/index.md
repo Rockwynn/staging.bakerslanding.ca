@@ -2,6 +2,7 @@
 title: Home
 heading: Welcome
 sub_heading: Come and enjoy the beautiful seasons in Almaguin Highlands.  Great relaxing and good fishing too!  Boat rentals nearby. Well behaved pet welcome.
+page_url: our-cottage
 readmoretext: 'Read more about our cottage'
 segment_1: home-page-3up
 template: sidebar
