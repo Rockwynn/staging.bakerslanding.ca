@@ -1,0 +1,44 @@
+<div class="container">
+    <!--:: before-->
+    <div class="row">
+        <!--::before-->
+        <div class=col-sm-8 blog-main">
+
+        <section class="regular">
+            <article class="content">
+                <h1 class="blue-heading">{{ heading or title }}</h1>
+                <h2 class="blue-sub-heading">{{ sub_heading }}</h2>
+                <p>{{ sub_sub_heading }}</p>
+
+
+                    {{ content }}
+
+            </article>
+
+        </section>
+
+
+        </div><!-- end of blog-main -->
+        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+            <div class="sidebar-module">
+                <script type="text/javascript" width="100%" src="https://www.availabilitycalendar.com/embed-js/h7LTzw6xskbDMXjIjIMP/en-0-2-4-7-0-0-6-2019-0-1-0-1-0/?css=https://staging.bakerslanding.ca/site/themes/redwood/css/redwood.css"></script>
+            </div><!-- end of sidebar-module -->
+        </div><!-- end of blog-sidebar -->
+        <!--::after-->
+    </div><!-- end of .row -->
+    <!--::after-->
+</div><!-- end of .ccontainer -->
+<section class="container-fluid">
+    <div class="tiles">
+        {{ collection:home-page-3up }}
+        <a class="item">
+            <div class="image" style="background-image: url({{ photo }});">
+                <h3 class="caption">{{ title }}</h3>
+            </div>
+		</a>
+        {{ /collection:home-page-3up }}
+    </div>
+</section>
+<div class="read-more">
+    <a href="/{{ page_url }}">{{ readmoretext }}</a>
+</div>
