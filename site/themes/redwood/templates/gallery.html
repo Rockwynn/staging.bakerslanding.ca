@@ -10,7 +10,8 @@
 		{{ content wrap="h2" }}
 	</header>-->
 	<div class="gallery-images">
-		{{ images }}<img src="{{ value }}" />{{ /images }}
+		<!--{{ images }}<img src="{{ value }}" />{{ /images }}-->
+		{{ images }}{{ imgix:responsive_image_tag path="{{ value }}" w="1500" auto="format" fit="max" }}{{ /images }}
 	</div>
 	<div class="read-more">
 		<a href="{{ page_url }}">View more Photo Galleries</a>

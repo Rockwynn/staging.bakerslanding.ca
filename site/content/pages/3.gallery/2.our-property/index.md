@@ -2,11 +2,11 @@
 title: 'Our Property'
 heading: Property Gallery
 images:
-  - /assets/house-outdoor/6661.jpg
-  - /assets/house-outdoor/1942.jpg
-  - /assets/house-outdoor/1645-320x240.jpg
-  - /assets/house-outdoor/8038.jpg
-  - /assets/house-outdoor/8047.jpg
+  - /house-outdoor/6661.jpg
+  - /house-outdoor/1942.jpg
+  - /house-outdoor/1645-320x240.jpg
+  - /house-outdoor/8038.jpg
+  - /house-outdoor/8047.jpg
 page_url: /gallery/lakefront-fun
 template: gallery
 fieldset: gallery
