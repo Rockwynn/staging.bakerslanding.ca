@@ -12,7 +12,7 @@
     <div class="tiles">
         {{ collection:amenities }}
         <a class="item">
-            <div class="image" style="background-image: url('{{ photo }}');">
+            <div class="image" style="background-image: url{{ imgix:image_url path="{{ photo }}" auto="format" fit="scale"}})">
                 <h3 class="caption">{{ title }}</h3>
             </div>
         </a>
@@ -29,7 +29,7 @@
     <article class="content">
         {{ collection:outdoor-features }}
         <p class="centered">
-            <img src="{{ photo }}" class="normal captioned"/>
+			{{ imgix:responsive_image_tag path="{{ photo }}" class="normal captioned" }}
             <p class="caption">{{ title }}</p>
         </p>
         {{ /collection:outdoor-features }}
@@ -45,7 +45,7 @@
     <article class="content">
         {{ collection:summer }}
         <p class="centered">
-            <img src="{{ photo }}" class="normal captioned"/>
+			{{ imgix:responsive_image_tag path="{{ photo }}" class="normal captioned" }}
             <p class="caption">{{ title }}</p>
         </p>
         {{ /collection:summer }}

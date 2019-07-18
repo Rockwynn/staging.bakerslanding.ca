@@ -9,6 +9,7 @@ id: c2334d7d-8eea-4445-98c8-df99aa60ef8a
 fun_facts:
 ---
 ![Jeff's Dock](/assets/our-cottage/8038.jpg)
+{{ imgix:responsive_image_tag path="our-cottage/8038.jpg" w="700" }}
 
 Come out and enjoy our beautiful Lake Cecebe cottage.
 
@@ -21,6 +22,7 @@ or just relax over marshmallows at the fire pit. Just one hour to Huntsville, No
 3 hours from Toronto.
 
 ![Jeff's House](/assets/our-cottage/jeffs-house-960x250.jpg)
+{{ imgix:responsive_image_tag path="our-cottage/jeffs-house-960x250.jpg" w="700" }}
 
 Set on 3 acres with 600' of private water frontage, this home includes a master bedroom with en-suite, and
 sliding doors from the large cathedral ceiling living room to the expansive wrap-around deck. The kitchen and
@@ -31,6 +33,7 @@ Bell and their partners. Internet connectivity using a Smart phone, “stick” 
 service providers is also good.  A landline is provided for local calling.
 
 ![Lawn & Dock](/assets/our-cottage/8047.jpg)
+{{ imgix:responsive_image_tag path="our-cottage/8047.jpg" w="700" }}
 
 Both the upper and lower deck and the dock are ideal for sun bathing, watching the world go by, a morning cup of
 coffee or an evening drink. The dock ladder allows easy access to the lake for swimming. A 14' fibreglass
@@ -56,3 +59,4 @@ cottage rental firms. Information on the form will be kept private.
 We hope you like our site, and look forward to talking with you.
 
 ![Jeff's Dock](/assets/our-cottage/jeffs-dock-2-chairs-960x250.jpg)
+{{ imgix:responsive_image_tag path="our-cottage/jeffs-dock-2-chairs-960x250.jpg" w="700" }}

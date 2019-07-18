@@ -25,7 +25,17 @@ id: 41b0e0b7-0426-41ad-9c6e-8a7325fb5a95
             Form was submitted successfully.
         </div>
     {{ /if }}
+    <!--<div class='container' style='margin-top: 100px;'>
+ <input type='text' class="form-control" id='datepicker' style='width: 300px;' > <br>
+ <input type='text' class="form-control" data-provide="datepicker" style='width: 300px;' >
+</div>-->
 
+<!-- Script -->
+<!--<script type="text/javascript">
+$(document).ready(function(){
+ $('#datepicker').datepicker();
+});
+</script>-->
     <div class="form-group">
         <label>Check in Date - Saturday</label>
         <input type="text" name="checkindate" value="{{ old:checkindate }}" class="form-control" />
@@ -42,6 +52,11 @@ id: 41b0e0b7-0426-41ad-9c6e-8a7325fb5a95
     </div>
 
     <div class="form-group">
+        <label>Email</label>
+        <input type="email" name="email" value="{{ old:email }}" class="form-control" />
+    </div>
+
+    <div class="form-group">
         <label>Phone Number</label>
         <input type="text" name="phonenumber" value="{{ old:phonenumber }}" class="form-control" />
     </div>
@@ -49,11 +64,6 @@ id: 41b0e0b7-0426-41ad-9c6e-8a7325fb5a95
     <div class="hidden form-group">
         <label>Username</label>
         <input type="text" name="username" />
-    </div>
-
-    <div class="form-group">
-        <label>Email</label>
-        <input type="email" name="email" value="{{ old:email }}" class="form-control" />
     </div>
 
     <div class="form-group">
@@ -96,72 +106,51 @@ id: 41b0e0b7-0426-41ad-9c6e-8a7325fb5a95
     </div>
 
     <div class="form-group">
-        <label>Business Phone</label>
-        <input type="text" name="businessphone" value="{{ old:businessphone }}" class="form-control" />
+        <label>Number of Adults</label>
+        <select name="numberadults">
+            <option value="">Please Select</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+        </select>
     </div>
 
     <div class="form-group">
-        <label>Extension</label>
-        <input type="text" name="ext" value="{{ old:ext }}" class="form-control" />
+        <label>Number of Children</label>
+        <select name="numberchildren">
+            <option value="">Please Select</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
     </div>
 
     <div class="form-group">
-        <label>Employers Name</label>
-        <input type="text" name="employersname" value="{{ old:employersname }}" class="form-control" />
+        <label>Are you bringing a dog?</label>
+        <select name="bringingdog">
+            <option value="">Please Select</option>
+            <option value="Own">Yes</option>
+            <option value="Rent">No</option>
+        </select>
     </div>
 
     <div class="form-group">
-        <label>Employers Address</label>
-        <input type="text" name="employersaddress" value="{{ old:employersaddress }}" class="form-control" />
+        <label>Are you bringing additional guests?</label>
+        <select name="bringingguests">
+            <option value="">Please Select</option>
+            <option value="Own">Yes</option>
+            <option value="Rent">No</option>
+        </select>
     </div>
 
     <div class="form-group">
-        <label>Job Title</label>
-        <input type="text" name="jobtitle" value="{{ old:jobtitle }}" class="form-control" />
-    </div>
-
-    <div class="form-group">
-        <label>Length of time employed at current job</label>
-        <input type="text" name="lengthemployed" value="{{ old:lengthemployed }}" class="form-control" />
-    </div>
-
-    <div class="form-group">
-        <label>Drivers License Number</label>
-        <input type="text" name="driverslicensenumber" value="{{ old:driverslicensenumber }}" class="form-control" />
-    </div>
-
-    <div class="form-group">
-        <label>License Plate Number</label>
-        <input type="text" name="licenseplatenumber" value="{{ old:licenseplatenumber }}" class="form-control" />
-    </div>
-
-    <div class="form-group">
-        <label>Home/Renter Insurance Provider</label>
-        <input type="text" name="homerenterinsurance" value="{{ old:homerenterinsurance }}" class="form-control" />
-    </div>
-
-    <div class="form-group">
-        <label>Policy Number</label>
-        <input type="text" name="policynumber" value="{{ old:policynumber }}" class="form-control" />
-    </div>
-
-    <div class="form-group">
-        <label>Names, Addresses and Phone Numbers of ALL Adults and Children occupying Baker's Landing (including the ages of all children.)</label>
-        <textarea name="alloccupants" class="form-control">{{ old:alloccupants }}</textarea>
-    </div>
-
-    <div class="form-group">
-        <label>Are you bringing a Dog? A maximum of 2 dogs are allowed. Please provide details of age, breed ,size, temperament and training.</label>
-        <textarea name="doginfo" class="form-control">{{ old:doginfo }}</textarea>
-    </div>
-
-    <div class="form-group">
-        <label>Are you bringing any day or overnight Guests? Please provide their names and dates of their visit.</label>
-        <textarea name="dayovernightguests" class="form-control">{{ old:dayovernightguests }}</textarea>
-    </div>
-
-    <div class="form-group">
-        <label>Please use the area below to add any additional Details, Questions or Comments you may have.</label>
+        <label>Please use the area below to add any additional details, special interests, questions or comments you may have.</label>
         <textarea name="comment" class="form-control">{{ old:comment }}</textarea>
     </div>
 

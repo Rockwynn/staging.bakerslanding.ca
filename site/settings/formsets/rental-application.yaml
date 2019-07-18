@@ -3,16 +3,18 @@ honeypot: username
 fields:
   checkindate:
     display: 'Check in Date - Saturday'
+    validate: require
   checkoutdate:
     display: 'Check out Date'
+    validate: required
   name:
     display: Name
-    validate: 'required'
-  phonenumber:
-    display: 'Phone Number'
+    validate: 'required|min:2'
   email:
     display: 'Email Address'
     validate: required|email
+  phonenumber:
+    display: 'Phone Number'
   secondaryphonenumber:
     display: 'Secondary Phone Number'
   address:
@@ -27,32 +29,19 @@ fields:
     display: 'Number of Years at Address'
   ownrent:
     display: Own/Rent
-  businessphone:
-    display: 'Business Phone'
-  ext:
-    display: Extension
-  employersname:
-    display: 'Employers Name'
-  employersaddress:
-    display: 'Employers Address'
-  jobtitle:
-    display: 'Job Title'
-  lengthemployed:
-    display: 'Length of Employment at current Job'
-  driverslicensenumber:
-    display: 'Drivers License Number'
-  licenseplatenumber:
-    display: 'License Plate Number'
-  homerenterinsurance:
-    display: 'Home/Renter Insurance Provider'
-  policynumber:
-    display: 'Policy Number'
-  alloccupants:
-    display: 'Names, Addresses and Phone Numbers of ALL Adults and Children occupying Baker''s Landing (including the ages of all children.)'
-  doginfo:
-    display: 'Are you bringing a Dog? A maximum of 2 dogs are allowed. Please provide details of age, breed ,size, temperament and training.'
-  dayovernightguests:
-    display: 'Are you bringing any day or overnight Guests? Please provide their names and dates of their visit.'
+    validate: required
+  numberadults:
+    display: Number of adults
+    validate: required
+  numberchildren:
+    display: Number of children
+    validate: required
+  bringingdog:
+    display: Are you bringing a dog?
+    validate: required
+  bringingguests:
+    display: Are you gringing additional guests?
+    validate: required
   comments:
     display: 'Please use the area below to add any additional Details, Questions or Comments you may have.'
 columns:
@@ -68,19 +57,10 @@ columns:
   - postalzipcode
   - numberyearsataddress
   - ownrent
-  - businessphone
-  - ext
-  - employersname
-  - employersaddress
-  - jobtitle
-  - lengthemployed
-  - driverslicensenumber
-  - licenseplatenumber
-  - homerenterinsurance
-  - policynumber
-  - alloccupants
-  - doginfo
-  - dayovernightguests
+  - numberadults
+  - numberchildren
+  - bringingdog
+  - bringingguests
   - comments
 email:
   -

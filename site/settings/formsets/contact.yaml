@@ -7,29 +7,12 @@ fields:
   email:
     display: 'Email Address'
     validate: required|email
-  number:
-    display: 'Favorite Number'
-    validate: integer
   comment:
     display: Comment
 columns:
   - name
   - email
-  - number
   - comment
-metrics:
-  -
-    type: total
-    label: 'Total Responses'
-  -
-    type: sum
-    label: 'Sum of Favorite Number'
-    field: number
-  -
-    type: average
-    label: 'Average Favorite Number'
-    field: number
-    precision: 1
 email:
   -
     to: info@bakerslanding.ca
