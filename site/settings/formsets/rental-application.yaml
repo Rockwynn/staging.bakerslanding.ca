@@ -3,7 +3,7 @@ honeypot: username
 fields:
   checkindate:
     display: 'Check in Date - Saturday'
-    validate: require
+    validate: required
   checkoutdate:
     display: 'Check out Date'
     validate: required
@@ -40,7 +40,7 @@ fields:
     display: Are you bringing a dog?
     validate: required
   bringingguests:
-    display: Are you gringing additional guests?
+    display: Are you bringing additional guests?
     validate: required
   comments:
     display: 'Please use the area below to add any additional Details, Questions or Comments you may have.'
