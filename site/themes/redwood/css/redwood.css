@@ -114,6 +114,14 @@ phone a:focus {
   padding: 24px;
 }
 
+.mt-2 {
+  margin-top: 16px;
+}
+
+.mt-3 {
+  margin-top: 24px;
+}
+
 .p-4 {
   padding: 40px;
 }
@@ -587,6 +595,7 @@ article.content p.caption {
   font-size: 14px;
   text-align: center;
   padding-top: 3px;
+  margin-bottom: 20px;
 }
 
 article.content iframe {
@@ -695,7 +704,7 @@ code {
 .blue-sub-heading {
   font-family: "FreightSansPro", sans-serif;
   font-size: 28px;
-  font-weight: 300;
+  font-weight: 400;
   text-transform: uppercase;
   text-align: center;
   color: #2677ad;
