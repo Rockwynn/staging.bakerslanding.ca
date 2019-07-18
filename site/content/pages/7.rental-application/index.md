@@ -162,6 +162,6 @@ $(document).ready(function(){
 </section>
 <section class="regular">
 <article class="content rounded p-3 bright-blue-bg">
- <p class="white-text">You may fill in the Application Form above and click on submit, to submit the form via email. Otherwise, if you would prefer to <a href="/Bakers-Landing-Application-Form.pdf"><strong>print or download a copy of Baker’s Landing Application Form click here.</strong></a> The Application Form will open in a new window. You will have different choices depending on your browser. Save, Print, Fill out form, email, download, etc… This Application Form is fill-able in adobe acrobat. After completing the Application Form you may email it back to us.</p>
+ <p class="white-text">You may fill in the Application Form above and click on submit, to submit via email. Otherwise, if you would prefer to print or download a copy of the Baker's Landing Application Form <a href="/Bakers-Landing-Application-Form.pdf"><strong>click here</strong></a>. The Application Form will open in a new window. You will have different choices depending on your browser. Save, Print, Fill out form, email, download, etc… This Application Form is fill-able in adobe acrobat. After completing the Application Form you may email it back to us.</p>
 </article>
 </section>
