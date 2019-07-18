@@ -7,7 +7,7 @@ fieldset: about
 id: 0c039249-f952-4871-99a0-909b5f2bc201
 ---
 ***If you see a part week on the availability calendar, please ask. We will consider stays with a minimum of 4 nights in June and after September  7th***
-<section class="mt-3 p-3">
+<section class="mt-3">
     <article class="content rounded p-3 bright-blue-bg">
         <h1 class="white-sub-heading">SUMMER SHOULDER WEEKS 2019</h1>
         <p class="white-text">Saturday, June 8 until Saturday, June 22 – $1,675 per week.  Minimum stay is 4 nights.  Extra nights are $230 per night.</p>
@@ -15,7 +15,7 @@ id: 0c039249-f952-4871-99a0-909b5f2bc201
         <p class="white-text">Minimum 4 night stay</p>
     </article>
 </section>
-<section class="mt-3 p-3">
+<section class="mt-3">
     <article class="content rounded p-3 bright-blue-bg">
         <h1 class="white-sub-heading">HIGH SEASON 2019</h1>
         <p class="white-text">Saturday, June 30 until Saturday, August 31, 2019</p>
@@ -23,7 +23,7 @@ id: 0c039249-f952-4871-99a0-909b5f2bc201
         <p class="white-text">Please ask about rates for stays of two or more consecutive weeks.</p>
     </article>
 </section>
-<section class="mt-3 p-3">
+<section class="mt-3">
     <article class="content rounded p-3 bright-blue-bg">
         <h1 class="white-sub-heading">LABOUR DAY WEEK 2019</h1>
         <p class="white-text">Saturday, August 31until Saturday, September 7</p>
@@ -31,7 +31,7 @@ id: 0c039249-f952-4871-99a0-909b5f2bc201
         <p class="white-text">Please ask about rates for stays of two or more consecutive weeks.</p>
     </article>
 </section>
-<section class="mt-3 p-3">
+<section class="mt-3">
     <article class="content rounded p-3 bright-blue-bg">
         <h1 class="white-sub-heading">FALL LOW SEASON 2019</h1>
         <p class="white-text">Saturday, September 7 until Saturday, September 21.</p>
@@ -39,7 +39,7 @@ id: 0c039249-f952-4871-99a0-909b5f2bc201
         <p class="white-text">Minimum low season stay is 4 nights</p>
     </article>
 </section>
-<section class="mt-3 p-3">
+<section class="mt-3">
     <article class="content rounded p-3 bright-blue-bg">
         <h1 class="white-sub-heading"Terms and Conditions</h1>
         <p class="white-text">A non-refundable deposit of $500 for each week is required to confirm all bookings. The remainder of the rental fee must be paid 30 days before the start of the rental period. If the cottage is booked less than 30 days in advance the entire rental fee is due at the time of booking.</p>
@@ -49,7 +49,7 @@ id: 0c039249-f952-4871-99a0-909b5f2bc201
         <p class="white-text">***We can provide sheets and towels for an extra $60 per week.***</p>
     </article>
 </section>
-<section class="mt-3 p-3">
+<section class="mt-3">
     <article class="content rounded p-3 bright-blue-bg">
         <h1 class="white-sub-heading">Rental Application</h1>
         <p class="white-text"><a href="/rental-application">Rental Application</a> - View and download a Rental Application Form or Complete the Rental Application Form online</p>
