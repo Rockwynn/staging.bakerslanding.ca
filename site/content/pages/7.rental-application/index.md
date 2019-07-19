@@ -25,7 +25,7 @@ id: 41b0e0b7-0426-41ad-9c6e-8a7325fb5a95
             Form was submitted successfully.
         </div>
     {{ /if }}
-    
+
     <div class="form-group">
         <label>Check in Date - Saturday</label>
         <input type="date" name="checkindate" value="{{ old:checkindate }}" class="form-control" />
@@ -94,7 +94,6 @@ id: 41b0e0b7-0426-41ad-9c6e-8a7325fb5a95
             <option value="Rent">Rent</option>
         </select>
     </div>
-
     <div class="form-group">
         <label>Number of Adults</label>
         <select name="numberadults">
@@ -138,6 +137,8 @@ id: 41b0e0b7-0426-41ad-9c6e-8a7325fb5a95
             <option value="Rent">No</option>
         </select>
     </div>
+
+    <div><label>Please note Baker's Landing holds a maximum of 8 people, including children.</label></div>
 
     <div class="form-group">
         <label>Please use the area below to add any additional details, special interests, questions or comments you may have.</label>

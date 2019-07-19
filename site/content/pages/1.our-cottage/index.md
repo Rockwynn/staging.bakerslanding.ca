@@ -8,7 +8,6 @@ fieldset: about
 id: c2334d7d-8eea-4445-98c8-df99aa60ef8a
 fun_facts:
 ---
-<!--![Jeff's Dock](/assets/our-cottage/8038.jpg)-->
 {{ imgix:responsive_image_tag path="our-cottage/8038.jpg" w="700" }}
 
 Come out and enjoy our beautiful Lake Cecebe cottage.
@@ -21,7 +20,6 @@ picnics or just relax to the call of the loons. Golfing, horseback riding, shopp
 or just relax over marshmallows at the fire pit. Just one hour to Huntsville, North Bay or Parry Sound and less than
 3 hours from Toronto.
 
-<!--![Jeff's House](/assets/our-cottage/jeffs-house-960x250.jpg)-->
 {{ imgix:responsive_image_tag path="our-cottage/jeffs-house-960x250.jpg" w="700" }}
 
 Set on 3 acres with 600' of private water frontage, this home includes a master bedroom with en-suite, and
@@ -32,7 +30,6 @@ are also included and are part of the full surround system.  There is good cell 
 Bell and their partners. Internet connectivity using a Smart phone, “stick” or “hub” with either of these
 service providers is also good.  A landline is provided for local calling.
 
-<!--![Lawn & Dock](/assets/our-cottage/8047.jpg)-->
 {{ imgix:responsive_image_tag path="our-cottage/8047.jpg" w="700" }}
 
 Both the upper and lower deck and the dock are ideal for sun bathing, watching the world go by, a morning cup of
@@ -57,6 +54,4 @@ Potential guests will be asked to fill out and return a [Rental Application form
 cottage rental firms. Information on the form will be kept private.
 
 We hope you like our site, and look forward to talking with you.
-
-<!--![Jeff's Dock](/assets/our-cottage/jeffs-dock-2-chairs-960x250.jpg)-->
 {{ imgix:responsive_image_tag path="our-cottage/jeffs-dock-2-chairs-960x250.jpg" w="700" }}
