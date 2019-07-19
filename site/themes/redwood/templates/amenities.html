@@ -12,7 +12,7 @@
     <div class="tiles">
         {{ collection:amenities }}
         <a class="item">
-            <div class="image" style="background-image: url{{ imgix:image_url path="{{ photo }}" auto="format" fit="scale"}})">
+            <div class="image" style="background-image: url({{ imgix:image_url path="{{ photo }}" auto="format" fit="scale"}})">
                 <h3 class="caption">{{ title }}</h3>
             </div>
         </a>
