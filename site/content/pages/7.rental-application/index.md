@@ -25,54 +25,7 @@ id: 41b0e0b7-0426-41ad-9c6e-8a7325fb5a95
             Form was submitted successfully.
         </div>
     {{ /if }}
-    <!--<div class='container' style='margin-top: 100px;'>
- <input type='text' class="form-control" id='datepicker' style='width: 300px;' > <br>
- <input type='text' class="form-control" data-provide="datepicker" style='width: 300px;' >
-</div>-->
-
-<!-- Script -->
-<!--<script type="text/javascript">
-$(document).ready(function(){
- $('#datepicker').datepicker();
-});
-</script>-->
-<!--<div class="container">
-    <div class='col-md-5'>
-        <div class="form-group">
-            <div class='input-group date' id='datetimepicker6'>
-                <input type='text' class="form-control" />
-                <span class="input-group-addon">
-                    <span class="glyphicon glyphicon-calendar"></span>
-                </span>
-            </div>
-        </div>
-    </div>
-    <div class='col-md-5'>
-        <div class="form-group">
-            <div class='input-group date' id='datetimepicker7'>
-                <input type='text' class="form-control" />
-                <span class="input-group-addon">
-                    <span class="glyphicon glyphicon-calendar"></span>
-                </span>
-            </div>
-        </div>
-    </div>
-</div>
-<script type="text/javascript">
-    $(function () {
-        $('#datetimepicker6').datetimepicker();
-        $('#datetimepicker7').datetimepicker({
-            useCurrent: false //Important! See issue #1075
-        });
-        $("#datetimepicker6").on("dp.change", function (e) {
-            $('#datetimepicker7').data("DateTimePicker").minDate(e.date);
-        });
-        $("#datetimepicker7").on("dp.change", function (e) {
-            $('#datetimepicker6').data("DateTimePicker").maxDate(e.date);
-        });
-    });
-</script>-->
-
+    
     <div class="form-group">
         <label>Check in Date - Saturday</label>
         <input type="date" name="checkindate" value="{{ old:checkindate }}" class="form-control" />
