@@ -15,7 +15,7 @@ columns:
   - comment
 email:
   -
-    to: jeffbakertwo@gmail.com
-    from: jeffbakertwo@gmail.com
+    to: info@bakerslanding.ca
+    from: info@bakerslanding.ca
     reply_to: '{{email}}'
     subject: 'BL - Contact Form Submission'
