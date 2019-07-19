@@ -64,7 +64,7 @@ columns:
   - comments
 email:
   -
-    to: info@bakerslanding.ca
-    from: info@bakerslanding.ca
+    to: jeffbakertwo@gmail.com
+    from: jeffbakertwo@gmail.com
     reply_to: '{{email}}'
     subject: 'BL - Rental Application Submission'
