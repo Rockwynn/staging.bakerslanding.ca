@@ -51,11 +51,10 @@ All payments must be in Canadian funds in the form of an Interac Email Money Tra
         </div>
         <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
             <div class="panel-body">
-                <p>Aside from clothing and personal items, you need to bring:
+                <p>Aside from clothing and personal items, you need to bring:</p>
 
-Bed linens — sheets and pillow-cases for three queen-sized, two double-sized and one single bed.
-Towels, face cloths
-towels, sheets, and pillow case can be provided for an extra $60 per visit
+<p>Bed linens — sheets and pillow-cases for three queen-sized, two double-sized and one single bed.</p>
+<p>Towels, face cloths, sheets, and pillow case can be provided for an extra $60 per visit.
 Food – The closest grocery stores are Valu-Mart in Burk’s Fall’s or Magnetawan Grill and Grocery in Magnetawan – both are 20 minutes away
 A basic First Aid kit
 Cell phone, we provide a land-line, local calls only
@@ -70,7 +69,7 @@ BBQ, propane, lighter, grill scraper, and utensils
 COVID-19 Cleaning supplies (dish detergent, cleanser, windex)
 Dish cloths, tea towels and paper towels
 Toilet paper, dish soap, and diswasher soap
-Garbage bags & kitchen catchers 
+Garbage bags & kitchen catchers
 A selection of board games, and magazines
 A 16' canoe and a paddleboat, 6-8 adult-sized life jackets, and 2 marine safety kits
 Badminton, croquet, "Ranger" horseshoes, tetherball
