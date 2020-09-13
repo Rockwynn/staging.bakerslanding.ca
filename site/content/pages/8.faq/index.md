@@ -51,19 +51,18 @@ All payments must be in Canadian funds in the form of an Interac Email Money Tra
         </div>
         <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
             <div class="panel-body">
-            <ul>
-            <li>
-                <p>Aside from clothing and personal items, you need to bring:</p>
 
-<p>Bed linens — sheets and pillow-cases for three queen-sized, two double-sized and one single bed.</p>
-<p>Towels, face cloths, sheets, and pillow case can be provided for an extra $60 per visit.</p><p>
-Food – The closest grocery stores are Valu-Mart in Burk’s Fall’s or Magnetawan Grill and Grocery in Magnetawan – both are 20 minutes away
-A basic First Aid kit
-Cell phone, we provide a land-line, local calls only
-Children’s life jackets
-We provide the following:
-
-Plates, cups, cutlery, glasses (but bring your own disposable stuff if desired)
+<p>Aside from clothing and personal items, you need to bring:</p>
+    <ul>
+        <li>Bed linens — sheets and pillow-cases for three queen-sized, two double-sized and one single bed.</li>
+        <li>Towels, face cloths, sheets, and pillow case can be provided for an extra $60 per visit.</li>
+        <li>Food – The closest grocery stores are Valu-Mart in Burk’s Fall’s or Magnetawan Grill and Grocery in Magnetawan – both are 20 minutes away.</li>
+        <li>A basic First Aid kit</li>
+        <li>Cell phone, we provide a land-line, local calls only</li>
+        <li>Children’s life jackets</li>
+    </ul>
+<p>We provide the following:</p>
+    <p>Plates, cups, cutlery, glasses (but bring your own disposable stuff if desired)
 Pots, pans, frying pan
 Cooking utensils, knives, corkscrew, can-opener
 Toaster, coffee-maker, kettle, microwave, blender, etc…
@@ -75,7 +74,7 @@ Garbage bags & kitchen catchers
 A selection of board games, and magazines
 A 16' canoe and a paddleboat, 6-8 adult-sized life jackets, and 2 marine safety kits
 Badminton, croquet, "Ranger" horseshoes, tetherball
-Fresh air and the call of the loons, wafting across the water</p></li></ul>
+Fresh air and the call of the loons, wafting across the water</p>
             </div>
         </div>
     </div>
