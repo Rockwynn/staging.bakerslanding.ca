@@ -53,7 +53,7 @@ All payments must be in Canadian funds in the form of an Interac Email Money Tra
             <div class="panel-body">
                 <p>Aside from clothing and personal items, you need to bring:
 
-Bed linens — sheets and pillow-cases for three queen-sized, two double-sized and one single bed
+Bed linens — sheets and pillow-cases for three queen-sized, two double-sized and one single bed.
 Towels, face cloths
 towels, sheets, and pillow case can be provided for an extra $60 per visit
 Food – The closest grocery stores are Valu-Mart in Burk’s Fall’s or Magnetawan Grill and Grocery in Magnetawan – both are 20 minutes away
@@ -66,13 +66,14 @@ Plates, cups, cutlery, glasses (but bring your own disposable stuff if desired)
 Pots, pans, frying pan
 Cooking utensils, knives, corkscrew, can-opener
 Toaster, coffee-maker, kettle, microwave, blender, etc…
-Weber BBQ, propane, lighter, grill scraper, and utensils
-Cleaning supplies (dish detergent, cleanser, windex)
+BBQ, propane, lighter, grill scraper, and utensils
+COVID-19 Cleaning supplies (dish detergent, cleanser, windex)
 Dish cloths, tea towels and paper towels
 Toilet paper, dish soap, and diswasher soap
-Garbage bags & kitchen catchers (note: you are responsible for disposing of your own garbage)
+Garbage bags & kitchen catchers 
 A selection of board games, and magazines
-A 14′ fiberglass row boat with oars (no motor), 6 adult-sized life jackets, and a marine safety kit
+A 16' canoe and a paddleboat, 6-8 adult-sized life jackets, and 2 marine safety kits
+Badminton, croquet, "Ranger" horseshoes, tetherball
 Fresh air and the call of the loons, wafting across the water</p>
             </div>
         </div>
@@ -103,7 +104,7 @@ Fresh air and the call of the loons, wafting across the water</p>
         </div>
         <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
             <div class="panel-body">
-                <p>The maximum occupancy is 6 people total unless otherwise arranged at the time of booking. Guest names, addresses and vehicle information are required at time of booking.</p>
+                <p>The maximum occupancy is 8 people total unless otherwise arranged at the time of booking. Guest names, addresses and vehicle information are required at time of booking.</p>
             </div>
         </div>
     </div>
@@ -131,7 +132,7 @@ Fresh air and the call of the loons, wafting across the water</p>
         </div>
         <div id="collapse7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading7">
             <div class="panel-body">
-                <p>The Weber BBQ has a propane tank on it. A full spare tank is also provided. Feel free to swap the spare tank if required, but if it’s empty let us know so we can refill it for the next guests. We provide all the cooking implements – you provide the steak!</p>
+                <p>The BBQ has a propane tank on it. A full spare tank is also provided. Feel free to swap the spare tank if required, but if it’s empty let us know so we can refill it for the next guests. We provide all the cooking implements – you provide the steak!</p>
             </div>
         </div>
     </div>
@@ -188,7 +189,7 @@ Campfires are permitted when the Current Forest Fire Hazard Rating and the Local
         </div>
         <div id="collapse11" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading11">
             <div class="panel-body">
-                <p>A 14′ Fiberglass boat with oars (no motor) comes with the cottage, as well as 6 adult life jackets and a marine safety kit. There are 3 marinas close by that rent boats and motors. Names and phone numbers can be supplied on request.</p>
+                <p>A  16' canoe and a paddleboat are loaned with the cottage, as well as 6-8 adult life jackets and marine safety kits. You will need to bring children's life jackets.  There are 2 marinas close by that rent boats and motors. Names and phone numbers can be supplied on request.</p>
             </div>
         </div>
     </div>
@@ -230,7 +231,7 @@ Campfires are permitted when the Current Forest Fire Hazard Rating and the Local
         </div>
         <div id="collapse14" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading14">
             <div class="panel-body">
-                <p>Baker’s Landing provides a land line with local calling only. There are 2 cell towers close by – high speed internet and cell phone reception is excellent. You will need to bring your own internet stick or hub.</p>
+                <p>Baker's Landing does NOT have its own internet coverage. Bring your own Bell or Rogers stick or hub, or a Smartphone, for internet connections. There is also good Rogers and Bell cell phone reception, so a Smartphone can be used as a hotspot. No modem is provided. The public library in Magnetawan (a 20 minute drive away) provides free high speed internet and your hosts can give you the password. The library has limited hours, but wifi can be accessed from a picnic table outside the library or from your vehicle in the parking area. Or Tim Hortons in Burk's Falls also has free internet coverage. Baker’s Landing does not provide a telephone land line.  You will need to use your cell phone for telephone usage. As mentioned, there are 2 cell towers close by – cell phone reception is excellent. </p>
             </div>
         </div>
     </div>
@@ -286,7 +287,7 @@ Campfires are permitted when the Current Forest Fire Hazard Rating and the Local
         </div>
         <div id="collapse18" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading18">
             <div class="panel-body">
-                <p>This property is ideal for a couple, family or extended family with grandparents and very suitable for active seniors. The house is not suitable for handicapped individuals because of the two levels. The maximum number of occupants at any time is 6 people of any age, unless prearranged. We encourage you to inquire if you have specific needs or questions.</p>
+                <p>This property is ideal for a couple, family or extended family with grandparents and very suitable for active seniors. The house is not suitable for handicapped individuals because of the two levels. The maximum number of occupants at any time is 8 people of any age, unless prearranged. We encourage you to inquire if you have specific needs or questions.</p>
             </div>
         </div>
     </div>
@@ -300,7 +301,7 @@ Campfires are permitted when the Current Forest Fire Hazard Rating and the Local
         </div>
         <div id="collapse19" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading19">
             <div class="panel-body">
-                <p>There is a washer & dryer at Baker’s Landing for your use.</p>
+                <p>There is a washer & dryer at Baker’s Landing for your use. Laundry soap is supplied</p>
             </div>
         </div>
     </div>

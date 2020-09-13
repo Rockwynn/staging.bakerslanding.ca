@@ -1,10 +1,8 @@
 ---
 title: 'Rental Application'
-heading: Bakers Landing Rental Application
-sub_heading:
-sub_sub_heading:
+heading: 'Bakers Landing Rental Application'
 page_url: faq
-readmoretext: Have any questions? See our FAQ Page
+readmoretext: 'Have any questions? See our FAQ Page'
 fieldset: default
 template: about
 id: 41b0e0b7-0426-41ad-9c6e-8a7325fb5a95
@@ -47,7 +45,7 @@ id: 41b0e0b7-0426-41ad-9c6e-8a7325fb5a95
     </div>
 
     <div class="form-group">
-        <label>Phone Number</label>
+        <label>Home Phone Number</label>
         <input type="text" name="phonenumber" value="{{ old:phonenumber }}" class="form-control" />
     </div>
 
@@ -57,7 +55,7 @@ id: 41b0e0b7-0426-41ad-9c6e-8a7325fb5a95
     </div>
 
     <div class="form-group">
-        <label>Secondary Phone Number</label>
+        <label>Cell Number</label>
         <input type="text" name="secondaryphonenumber" value="{{ old:secondaryphonenumber }}" class="form-control" />
     </div>
 
@@ -82,12 +80,12 @@ id: 41b0e0b7-0426-41ad-9c6e-8a7325fb5a95
     </div>
 
     <div class="form-group">
-        <label>Number of years at address</label>
+        <label>Number of years at present address</label>
         <input type="text" name="numberyearsataddress" value="{{ old:numberyearsataddress }}" class="form-control" />
     </div>
 
     <div class="form-group">
-        <label>Own/Rent</label>
+        <label>Do you Own or Rent your home</label>
         <select name="ownrent">
             <option value="">Please Select</option>
             <option value="Own">Own</option>
@@ -138,7 +136,7 @@ id: 41b0e0b7-0426-41ad-9c6e-8a7325fb5a95
         </select>
     </div>
 
-    <div><label class="blue-text">**Please note Baker's Landing holds a maximum of 8 persons, including children.**</label></div>
+    <div><label class="blue-text">**Please note Baker's Landing holds a maximum of 8 persons, including babies and guests.**</label></div>
 
     <div class="form-group">
         <label>Please use the area below to add any additional details, special interests, questions or comments you may have.</label>

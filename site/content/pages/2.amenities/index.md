@@ -1,9 +1,4 @@
----
 title: Amenities
-template: amenities
-fieldset: about
-mount: amenities
-id: a4df12ea-b598-4d6e-a1fa-61a78f2f2fd4
 amenities:
   - 'Air Conditioning, Central Vacuum Cleaner'
   - 'Washer & Dryer, Fridge & Stove'
@@ -11,6 +6,9 @@ amenities:
   - 'Generac Automatic Generator'
   - 'Coffee Maker, Toaster, Dishes, Cutlery'
   - 'Pots & Pans, Kitchen Appliances'
+template: amenities
+fieldset: about
+mount: amenities
 entertainment:
   - 'Stereo System, iPod dock'
   - 'Satellite TV, PVR, Flat Screen TV'
@@ -27,4 +25,4 @@ summer-activities:
   - 'Hiking, Echo Rock, Horseback Riding'
   - 'Public beach with Children’s Play Area'
   - '& Picnic Area, accessible by Boat'
----
+id: a4df12ea-b598-4d6e-a1fa-61a78f2f2fd4
