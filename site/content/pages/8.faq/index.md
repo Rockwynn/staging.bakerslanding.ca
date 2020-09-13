@@ -62,19 +62,21 @@ All payments must be in Canadian funds in the form of an Interac Email Money Tra
         <li>Children’s life jackets</li>
     </ul>
 <p>We provide the following:</p>
-    <p>Plates, cups, cutlery, glasses (but bring your own disposable stuff if desired)
-Pots, pans, frying pan
-Cooking utensils, knives, corkscrew, can-opener
-Toaster, coffee-maker, kettle, microwave, blender, etc…
-BBQ, propane, lighter, grill scraper, and utensils
-COVID-19 Cleaning supplies (dish detergent, cleanser, windex)
-Dish cloths, tea towels and paper towels
-Toilet paper, dish soap, and diswasher soap
-Garbage bags & kitchen catchers
-A selection of board games, and magazines
-A 16' canoe and a paddleboat, 6-8 adult-sized life jackets, and 2 marine safety kits
-Badminton, croquet, "Ranger" horseshoes, tetherball
-Fresh air and the call of the loons, wafting across the water</p>
+    <ul>
+        <li>Plates, cups, cutlery, glasses (but bring your own disposable stuff if desired)</li>
+        <li>Pots, pans, frying pan</li>
+        <li>Cooking utensils, knives, corkscrew, can-opener</li>
+        <li>Toaster, coffee-maker, kettle, microwave, blender, etc…</li>
+        <li>BBQ, propane, lighter, grill scraper, and utensils</li>
+        <li>COVID-19 Cleaning supplies (dish detergent, cleanser, windex)</li>
+        <li>Dish cloths, tea towels and paper towels</li>
+        <li>Toilet paper, dish soap, and diswasher soap</li>
+        <li>Garbage bags & kitchen catchers</li>
+        <li>A selection of board games, and magazines</li>
+        <li>A 16' canoe and a paddleboat, 6-8 adult-sized life jackets, and 2 marine safety kits</li>
+        <li>Badminton, croquet, "Ranger" horseshoes, tetherball</li>
+        <li>Fresh air and the call of the loons, wafting across the water</li>
+    </ul>
             </div>
         </div>
     </div>
