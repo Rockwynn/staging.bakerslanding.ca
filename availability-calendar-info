@@ -1,11 +1,11 @@
-https://www.availabilitycaalendar.com
+https://www.availabilitycalendar.com
 Sandra White
 whitehouseont@gmail.com
 S________ac
 
 Calendar for Bakerslanding.ca
 
-colors used in legend 
+colors used in legend
 Blue: #2667ad
 Green: #8cc640
 Pink: #D1729D
@@ -44,7 +44,7 @@ Monthly
 Display calendar title
 
 Yes
-Display booking information 
+Display booking information
 
 No
 Language
@@ -62,10 +62,10 @@ Yes, on top
 First day of the week
 
 Sunday
-Start date 
+Start date
 
 June 2019
-Display history 
+Display history
 
 Show booking history
  Preview
@@ -107,4 +107,3 @@ HTML code that opens the calendar in a pop-up:
 <script>function acPopup(calendarLink){calendarWindow=window.open(calendarLink,"AvailabilityCalendar.com","height=400,width=865");if (window.focus) {calendarWindow.focus()}return false;}</script><a href="https://www.availabilitycalendar.com/embed/c28501f79e9a60945c71bd165d9b189b/en-1-2-4-7-0-0-6-2019-1-1-0-0-0/" onclick="return acPopup('https://www.availabilitycalendar.com/embed/c28501f79e9a60945c71bd165d9b189b/en-1-2-4-7-0-0-6-2019-1-1-0-0-0/');">Availability Calendar</a>
 
 ******************************************************************************************************************8
-
