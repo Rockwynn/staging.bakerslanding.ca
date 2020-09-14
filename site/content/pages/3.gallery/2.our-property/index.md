@@ -11,11 +11,11 @@ images:
   - /house-outdoor/IMG_6876.JPG
   - /house-outdoor/8047.jpg
   - /house-outdoor/IMG_6817.JPG
+  - /house-outdoor/IMG_6867.JPG
   - /house-outdoor/IMG_6860.JPG
   - /house-outdoor/IMG_6857.JPG
   - /house-outdoor/IMG_6865.JPG
   - /house-outdoor/IMG_6884.JPG
-  - /house-outdoor/IMG_6867.JPG
   - /house-outdoor/IMG_6885.JPG
   - /house-outdoor/IMG_6889.JPG
   - /house-outdoor/IMG_7022.JPG
