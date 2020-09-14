@@ -4,95 +4,95 @@ fields:
   Check-In-Date:
     display: 'Check in date - Saturday'
     validate: required
-  checkoutdate:
+  Check-Out-Date:
     display: 'Check out date'
     validate: required
-  name:
+  Name:
     display: Name
     validate: 'required|min:2'
-  email:
+  Email:
     display: 'Email address'
     validate: required|email
-  homephonenumber:
+  Home-Phone-Number:
     display: 'Home Phone number'
-  cellphonenumber:
+  Cell-Phone-Number:
     display: 'Cell phone number'
-  address:
+  Address:
     display: Address
-  city:
+  City:
     display: City
-  provincestate:
+  Province-State:
     display: Province/State
-  postalzipcode:
+  PostalCode-ZipCode:
     display: 'Postal Code - Zip Code'
-  numberyearsataddress:
+  Number-of-Years-at-Address:
     display: 'Number of years at address'
-  ownrent:
+  Owner-Renter:
     display: Own/Rent
     validate: required
-  employer:
+  Employer:
     display: "Employer's Name and Address"
-  jobtitle:
+  Job-Title:
     display: 'Job Title'
-  lengthofemployment:
+  Length-of-Employment:
     display: 'Length of Employment at Current Job'
-  driverslicense:
+  Drivers-License:
     display: "Driver's License - Province/State and Number"
-  licenseplate:
+  License-Plate:
     display: "Vehicle License Plate - Province/State and Number"
-  insuranceprovider:
+  Insurance-Provider:
     display: 'Home/Renter Insurance Provider'
-  policynumber:
+  Policy-Number:
     display: 'Policy Number'
-  numberadults:
+  Number-of-Adults:
     display: 'Number of adults'
     validate: required
-  numberchildren:
+  Number-of-Children:
     display: 'Number of children'
     validate: required
-  bringingdog:
+  Bringing-Dog:
     display: 'Are you bringing a dog?'
     validate: required
-  doginfo:
+  Dog-Info:
     display: "Please provide details of age, breed, size, temperament and training. Please note Baker's Landing has a strict maximum 2 dog policy, and cats are not allowed."
-  bringingguests:
+  Bringing-Guests:
     display: 'Are you bringing additional guests?'
     validate: required
-  guestinfo:
+  Guest-Info:
     display: 'If yes, please provide their names and dates of their visit.'
-  bringingboat:
+  Bringing-Boat:
     display: 'Do you plan on bringing a boat? If so we have plenty of parking space.'
     validate: required
-  comment:
+  Comment:
     display: 'Please use the area below to add any additional Details, Questions or Comments you may have.'
 columns:
-  - checkindate
-  - checkoutdate
-  - name
-  - phonenumber
-  - email
-  - secondaryphonenumber
-  - address
-  - city
-  - provincestate
-  - postalzipcode
-  - numberyearsataddress
-  - ownrent
-  - employer
-  - jobtitle
-  - lengthofemployment
-  - driverslicense
-  - licenseplate
-  - insuranceprovider
-  - policynumber
-  - numberadults
-  - numberchildren
-  - bringingdog
-  - doginfo
-  - bringingguests
-  - guestinfo
-  - bringingboat
-  - comments
+  - Check-In-Date
+  - Check-Out-Date
+  - Name
+  - Home-Phone-Number
+  - Email
+  - Cell-Phone-Number
+  - Address
+  - City
+  - Province-State
+  - PostalCode-ZipCode
+  - Number-of-Years-at-Address
+  - Owner-Renter
+  - Employer
+  - Job-Title
+  - Length-of-Employment
+  - Drivers-License
+  - License-Plate
+  - Insurance-Provider
+  - Policy-Number
+  - Number-of-Adults
+  - Number-of-Children
+  - Bringing-Dog
+  - Dog-Info
+  - Bringing-Guests
+  - Guest-Info
+  - Bringing-Boat
+  - Comment
 email:
   -
     to: whitehouseont@gmail.com

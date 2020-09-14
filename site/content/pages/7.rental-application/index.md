@@ -31,105 +31,101 @@ id: 41b0e0b7-0426-41ad-9c6e-8a7325fb5a95
 
     <div class="form-group">
         <label>Check out Date</label>
-        <input type="date" name="checkoutdate" value="{{ old:checkoutdate }}" class="form-control" />
+        <input type="date" name="Check-Out-Date" value="{{ old:Check-Out-Date }}" class="form-control" />
     </div>
 
     <div class="form-group">
         <label>Name</label>
-        <input type="text" name="name" value="{{ old:name }}" class="form-control" />
+        <input type="text" name="Name" value="{{ old:Name }}" class="form-control" />
     </div>
 
     <div class="form-group">
         <label>Email</label>
-        <input type="email" name="email" value="{{ old:email }}" class="form-control" />
+        <input type="email" name="Email" value="{{ old:Email }}" class="form-control" />
     </div>
 
     <div class="form-group">
         <label>Home Phone Number</label>
-        <input type="text" name="homephonenumber" value="{{ old:homephonenumber }}" class="form-control" />
+        <input type="text" name="Home-Phone-Number" value="{{ old:Home-Phone-Number }}" class="form-control" />
     </div>
 
     <div class="hidden form-group">
         <label>Lastname</label>
-        <input type="text" name="lastname" />
+        <input type="text" name="Lastname" />
     </div>
 
     <div class="form-group">
         <label>Cell Phone Number</label>
-        <input type="text" name="cellphonenumber" value="{{ old:cellphonenumber }}" class="form-control" />
+        <input type="text" name="Cell-Phone-Number" value="{{ old:Cell-Phone-Number }}" class="form-control" />
     </div>
 
     <div class="form-group">
         <label>Address</label>
-        <input type="text" name="address" value="{{ old:address }}" class="form-control" />
+        <input type="text" name="Address" value="{{ old:Address }}" class="form-control" />
     </div>
 
     <div class="form-group">
         <label>City</label>
-        <input type="text" name="city" value="{{ old:city }}" class="form-control" />
+        <input type="text" name="City" value="{{ old:City }}" class="form-control" />
     </div>
 
     <div class="form-group">
         <label>Province/State</label>
-        <input type="text" name="provincestate" value="{{ old:provincestate }}" class="form-control" />
+        <input type="text" name="Province-State" value="{{ old:Province-State }}" class="form-control" />
     </div>
 
     <div class="form-group">
         <label>Postal Code/Zip Code</label>
-        <input type="text" name="postalzipcode" value="{{ old:postalzipcode }}" class="form-control" />
+        <input type="text" name="PostalCode-ZipCode" value="{{ old:PostalCode-ZipCode }}" class="form-control" />
     </div>
 
     <div class="form-group">
         <label>Number of years at present address</label>
-        <input type="text" name="numberyearsataddress" value="{{ old:numberyearsataddress }}" class="form-control" />
+        <input type="text" name="Number-of-Years-at-Address" value="{{ old:Number-of-Years-at-Address }}" class="form-control" />
     </div>
 
     <div class="form-group">
         <label>Do you Own or Rent your home</label>
-        <select name="ownrent" value="{{ old:ownrent }}">
+        <select name="Owner-Renter" value="{{ old:Owner-Renter }}">
             <option value="">Please Select</option>
             <option value="Own">Own</option>
             <option value="Rent">Rent</option>
         </select>
     </div>
 
-
-
-
-
     <div class="form-group">
         <label>Employer's Name and Address:</label>
-        <input type="text" name="employer" value="{{ old:employer }}" class="form-control" />
+        <input type="text" name="Employer" value="{{ old:Employer }}" class="form-control" />
     </div>
 
     <div class="form-group">
         <label>Job Title:</label>
-        <input type="text" name="jobtitle" value="{{ old:jobtitle }}" class="form-control" />
+        <input type="text" name="Job-Title" value="{{ old:Job-Title }}" class="form-control" />
     </div>
 
     <div class="form-group">
         <label>Length of Employment at Current Job:</label>
-        <input type="text" name="lengthofemployment" value="{{ old:lengthofemployment }}" class="form-control" />
+        <input type="text" name="Length-of-Employment" value="{{ old:Length-of-Employment }}" class="form-control" />
     </div>
 
     <div class="form-group">
         <label>Driver's License Province/State and Number:</label>
-        <input type="text" name="driverslicense" value="{{ old:driverslicense }}" class="form-control" />
+        <input type="text" name="rivers-License" value="{{ old:Drivers-License }}" class="form-control" />
     </div>
 
     <div class="form-group">
         <label>Vehicle License Plate - Province/State and Number:</label>
-        <input type="text" name="licenseplate" value="{{ old:licenseplate }}" class="form-control" />
+        <input type="text" name="License-Plate" value="{{ old:License-Plate }}" class="form-control" />
     </div>
 
     <div class="form-group">
         <label>Home/Renter Insurance Provider:</label>
-        <input type="text" name="insuranceprovider" value="{{ old:insuranceprovider }}" class="form-control" />
+        <input type="text" name="Insurance-Provider" value="{{ old:Insurance-Provider }}" class="form-control" />
     </div>
 
     <div class="form-group">
         <label>Policy Number:</label>
-        <input type="text" name="policynumber" value="{{ old:policynumber }}" class="form-control" />
+        <input type="text" name="Policy-Number" value="{{ old:Policy-Number }}" class="form-control" />
     </div>
 
 
@@ -143,7 +139,7 @@ id: 41b0e0b7-0426-41ad-9c6e-8a7325fb5a95
 
     <div class="form-group">
         <label>Number of Adults</label>
-        <select name="numberadults" value="{{ old:numberadults }}">
+        <select name="Number-of-Adults" value="{{ old:Number-of-Adults }}">
             <option value="">Please Select</option>
             <option value="1">1</option>
             <option value="2">2</option>
@@ -158,7 +154,7 @@ id: 41b0e0b7-0426-41ad-9c6e-8a7325fb5a95
 
     <div class="form-group">
         <label>Number of Children</label>
-        <select name="numberchildren" value="{{ old:numberchildren }}">
+        <select name="Number-of-Children" value="{{ old:Number-of-Children }}">
             <option value="">Please Select</option>
             <option value="1">1</option>
             <option value="2">2</option>
@@ -169,7 +165,7 @@ id: 41b0e0b7-0426-41ad-9c6e-8a7325fb5a95
 
     <div class="form-group">
         <label>Are you bringing a dog?</label>
-        <select name="bringingdog" value="{{ old:bringingdog }}">
+        <select name="Bringing-Dog" value="{{ old:Bringing-Dog }}">
             <option value="">Please Select</option>
             <option value="Yes">Yes</option>
             <option value="No">No</option>
@@ -178,12 +174,12 @@ id: 41b0e0b7-0426-41ad-9c6e-8a7325fb5a95
 
     <div class="form-group">
         <label>Please provide details of age, breed, size, temperament and training. Please note Baker's Landing has a strict "maximum 2 dog" policy, and cats are not allowed.</label>
-        <textarea name="doginfo" class="form-control">{{ old:doginfo }}</textarea>
+        <textarea name="Dog-Info" class="form-control">{{ old:Dog-Info }}</textarea>
     </div>
 
     <div class="form-group">
         <label>Are you bringing any additional day or overnight guests?</label>
-        <select name="bringingguests" value="{{ old:bringingguests }}">
+        <select name="Bringing-Guests" value="{{ old:Bringing-Guests }}">
             <option value="">Please Select</option>
             <option value="Yes">Yes</option>
             <option value="No">No</option>
@@ -192,12 +188,12 @@ id: 41b0e0b7-0426-41ad-9c6e-8a7325fb5a95
 
     <div class="form-group">
         <label>If yes, please provide their names and dates of their visit.</label>
-        <textarea name="guestinfo" class="form-control">{{ old:guestinfo }}</textarea>
+        <textarea name="Guest-Info" class="form-control">{{ old:Guest-Info }}</textarea>
     </div>
 
     <div class="form-group">
         <label>Do you plan on bringing a boat? If so we have plenty of parking space.</label>
-        <select name="bringingboat" value="{{ old:bringingboat }}">
+        <select name="Bringing-Boat" value="{{ old:Bringing-Boat }}">
             <option value="">Please Select</option>
             <option value="Yes">Yes</option>
             <option value="No">No</option>
@@ -208,7 +204,7 @@ id: 41b0e0b7-0426-41ad-9c6e-8a7325fb5a95
 
     <div class="form-group">
         <label>Please use the area below to add any additional details, special interests, questions or comments you may have.</label>
-        <textarea name="comment" class="form-control">{{ old:comment }}</textarea>
+        <textarea name="Comment" class="form-control">{{ old:Comment }}</textarea>
     </div>
 
     <div><label>Privacy Policy: The owners of Baker’s Landing will keep all information collected private. The information is being collected for rental screening purposes.</label></div>
