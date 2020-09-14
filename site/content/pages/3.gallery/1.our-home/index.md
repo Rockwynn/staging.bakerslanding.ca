@@ -2,22 +2,7 @@
 title: 'Our Home'
 heading: Home Gallery
 images:
-  - /house-indoor/8004.jpg
-  - /house-indoor/0008.jpg
-  - /house-indoor/0102.jpg
-  - /house-indoor/0103.jpg
-  - /house-indoor/8008.jpg
-  - /house-indoor/8009.jpg
-  - /house-indoor/8010.jpg
-  - /house-indoor/8007.jpg
-  - /house-indoor/8014.jpg
-  - /house-indoor/8024.jpg
-  - /house-indoor/0019.jpg
-  - /house-indoor/8027.jpg
-  - /house-indoor/8023.jpg
-  - /house-indoor/8021.jpg
   - /house-indoor/IMG_6821.JPG
-  - /house-indoor/IMG_6822.JPG
   - /house-indoor/IMG_6824.JPG
   - /house-indoor/IMG_6826.JPG
   - /house-indoor/IMG_6830.JPG
