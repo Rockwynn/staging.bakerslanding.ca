@@ -7,7 +7,6 @@ images:
   - /house-indoor/IMG_6826.JPG
   - /house-indoor/IMG_6830.JPG
   - /house-indoor/IMG_6832.JPG
-  - /house-indoor/IMG_6833.JPG
   - /house-indoor/IMG_6834.JPG
   - /house-indoor/IMG_6836.JPG
   - /house-indoor/IMG_6838.JPG
