@@ -20,7 +20,7 @@ id: 41b0e0b7-0426-41ad-9c6e-8a7325fb5a95
 
     {{ if success }}
         <div class="alert alert-success">
-            Form was submitted successfully.
+            Thank you for contacting us about our Baker’s Landing rental cottage.  The rental availability calendar and rental rates on bakerslanding.ca are accurate and up to date.  We will make every effort to get back to you in the next 24 hours or earlier.
         </div>
     {{ /if }}
 
