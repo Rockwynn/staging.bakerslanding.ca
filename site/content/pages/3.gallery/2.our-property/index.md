@@ -3,12 +3,12 @@ title: 'Our Property'
 heading: Property Gallery
 images:
   - /house-outdoor/IMG_6813.JPG
+  - /house-outdoor/IMG_6891.JPG
   - /house-outdoor/IMG_6815.JPG
   - /house-outdoor/IMG_7020.JPG
-  - /house-outdoor/IMG_6876.JPG
-  - /house-outdoor/IMG_6891.JPG
-  - /house-outdoor/1942.jpg
   - /house-outdoor/6661.jpg
+  - /house-outdoor/1942.jpg
+  - /house-outdoor/IMG_6876.JPG
   - /house-outdoor/8047.jpg
   - /house-outdoor/IMG_6817.JPG
   - /house-outdoor/IMG_6860.JPG
