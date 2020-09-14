@@ -7,7 +7,6 @@ template: sidebar
 fieldset: about
 id: c2334d7d-8eea-4445-98c8-df99aa60ef8a
 ---
-{{ imgix:responsive_image_tag path="our-cottage/8038.jpg" w="700" }}
 {{ imgix:responsive_image_tag path="house-outdoor/IMG_6889.JPG" w="700" }}
 
 Come out and enjoy our beautiful Lake Cecebe cottage.
