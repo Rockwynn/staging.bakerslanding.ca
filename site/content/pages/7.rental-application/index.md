@@ -46,7 +46,7 @@ id: 41b0e0b7-0426-41ad-9c6e-8a7325fb5a95
 
     <div class="form-group">
         <label>Home Phone Number</label>
-        <input type="text" name="phonenumber" value="{{ old:phonenumber }}" class="form-control" />
+        <input type="text" name="homephonenumber" value="{{ old:homephonenumber }}" class="form-control" />
     </div>
 
     <div class="hidden form-group">

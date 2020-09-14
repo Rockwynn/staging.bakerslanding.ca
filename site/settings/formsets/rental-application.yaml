@@ -13,8 +13,9 @@ fields:
   email:
     display: 'Email address'
     validate: required|email
-  phonenumber:
+  homephonenumber:
     display: 'Home Phone number'
+  username: something
   cellphonenumber:
     display: 'Cell phone number'
   address:
