@@ -8,6 +8,7 @@ fieldset: about
 id: c2334d7d-8eea-4445-98c8-df99aa60ef8a
 ---
 {{ imgix:responsive_image_tag path="our-cottage/8038.jpg" w="700" }}
+{{ imgix:responsive_image_tag path="house-outdoor/IMG_6889.JPG" w="700" }}
 
 Come out and enjoy our beautiful Lake Cecebe cottage.
 
@@ -22,7 +23,7 @@ or just relax over marshmallows at the fire pit. Just 45 minutes to Huntsville a
 
 Set on 2+ acres with 600' of private water frontage, this home includes a master bedroom with en-suite, and sliding doors from the large cathedral ceiling living room to the expansive wrap-around deck. The kitchen and dining room also overlook the lake and the property boasts a drilled well, south east exposure, 48' dock, air conditioning and sleeps a maximum of 8 people. A 40" HD TV (satellite connection) and DVD player/recorder are also included and are part of the full surround system.
 
-Baker's Landing does NOT have its own internet coverage. Bring your own Bell or Rogers stick or hub, or a Smartphone, for internet connections. There is also good Rogers and Bell cell phone reception, so a Smartphone can be used as a hotspot. No modem is provided. The public library in Magnetawan (a 20 minute drive away) provides free high speed internet and your hosts can give you the password. The library has limited hours, but wifi can be accessed from a picnic table outside the library or from your vehicle in the parking area. Or Tim Hortons in Burk's Falls also has free internet coverage. 
+Baker's Landing does NOT have its own internet coverage. Bring your own Bell or Rogers stick or hub, or a Smartphone, for internet connections. There is also good Rogers and Bell cell phone reception, so a Smartphone can be used as a hotspot. No modem is provided. The public library in Magnetawan (a 20 minute drive away) provides free high speed internet and your hosts can give you the password. The library has limited hours, but wifi can be accessed from a picnic table outside the library or from your vehicle in the parking area. Or Tim Hortons in Burk's Falls also has free internet coverage.
 
 {{ imgix:responsive_image_tag path="our-cottage/8047.jpg" w="700" }}
 
@@ -31,7 +32,7 @@ Both the upper and lower deck and the dock are ideal for sitting in the sun, wat
 
 Fishing is excellent and you can catch small mouth bass, walleye/pickerel, northern pike and yellow perch. In the past many years Lake Cecebe has been stocked annually with pickerel fry, by the Almaguin Fishing and Improvement Association.
 A 16' fibreglass canoe and a 4-seater paddleboat are loaned to you on your vacation.
-Boats and/or motors can be rented on the lake and there are several boat launches if you are bringing your own boat. 
+Boats and/or motors can be rented on the lake and there are several boat launches if you are bringing your own boat.
 Come and listen to the loons, relax and enjoy all that the lake and the area have to offer!
 
 A well behaved 100% house trained friendly dog that is good with strangers is allowed if the owners agree to "poop and scoop". The dog must be on a leash and cannot be left alone in the house or tied outside to bark at any time. There is a 2 dog maximum limit (no exceptions). Unfortunately cats are not allowed.
@@ -53,7 +54,7 @@ Heating: the furnace and air conditioning operate via a heat pump from our well.
 
 Guests are allowed as long as they are not exceeding the 8 guest limit. For day guests, please inquire.
 
-We hope you like our site, and look forward to talking with you. Please contact us with any questions you may have. 
+We hope you like our site, and look forward to talking with you. Please contact us with any questions you may have.
 
 Jeff and Kathy
 
