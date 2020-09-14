@@ -26,7 +26,7 @@ id: 41b0e0b7-0426-41ad-9c6e-8a7325fb5a95
 
     <div class="form-group">
         <label>Check in Date - Saturday</label>
-        <input type="date" name="CheckInDate" value="{{ old:CheckInDate }}" class="form-control" />
+        <input type="date" name="Check-In-Date" value="{{ old:Check-In-Date }}" class="form-control" />
     </div>
 
     <div class="form-group">
