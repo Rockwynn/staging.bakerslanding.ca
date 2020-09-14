@@ -92,6 +92,55 @@ id: 41b0e0b7-0426-41ad-9c6e-8a7325fb5a95
             <option value="Rent">Rent</option>
         </select>
     </div>
+
+
+
+
+
+    <div class="form-group">
+        <label>Employer's Name and Address:</label>
+        <input type="text" name="employer" value="{{ old:employer }}" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Job Title:</label>
+        <input type="text" name="jobtitle" value="{{ old:jobtitle }}" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Length of Employment at Current Job:</label>
+        <input type="text" name="lengthofemployment" value="{{ old:lengthofemployment }}" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Driver's License Province/State and Number:</label>
+        <input type="text" name="driverslicense" value="{{ old:driverslicense }}" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Vehicle License Plate - Province/State and Number:</label>
+        <input type="text" name="licenseplate" value="{{ old:licenseplate }}" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Home/Renter Insurance Provider:</label>
+        <input type="text" name="insuranceprovider" value="{{ old:insuranceprovider }}" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Policy Number:</label>
+        <input type="text" name="policynumber" value="{{ old:policynumber }}" class="form-control" />
+    </div>
+
+
+
+
+
+
+
+
+
+
     <div class="form-group">
         <label>Number of Adults</label>
         <select name="numberadults">
@@ -128,8 +177,27 @@ id: 41b0e0b7-0426-41ad-9c6e-8a7325fb5a95
     </div>
 
     <div class="form-group">
-        <label>Are you bringing additional guests?</label>
+        <label>Please provide details of age, breed, size, temperament and training. Please note Baker's Landing has a strict "maximum 2 dog" policy, and cats are not allowed.</label>
+        <textarea name="doginfo" class="form-control">{{ old:doginfo }}</textarea>
+    </div>
+
+    <div class="form-group">
+        <label>Are you bringing any additional day or overnight guests?</label>
         <select name="bringingguests">
+            <option value="">Please Select</option>
+            <option value="Own">Yes</option>
+            <option value="Rent">No</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label>If yes, please provide their names and dates of their visit.</label>
+        <textarea name="guestinfo" class="form-control">{{ old:guestinfo }}</textarea>
+    </div>
+
+    <div class="form-group">
+        <label>Do you plan on bringing a boat? If so we have plenty of parking space.</label>
+        <select name="bringingboat">
             <option value="">Please Select</option>
             <option value="Own">Yes</option>
             <option value="Rent">No</option>
@@ -142,6 +210,8 @@ id: 41b0e0b7-0426-41ad-9c6e-8a7325fb5a95
         <label>Please use the area below to add any additional details, special interests, questions or comments you may have.</label>
         <textarea name="comment" class="form-control">{{ old:comment }}</textarea>
     </div>
+
+    <div><label><b>Privacy Policy:</b> The owners of Baker’s Landing will keep all information collected private. The information is being collected for rental screening purposes.</label></div>
 
     <button class="btn btn-primary">Submit</button>
 

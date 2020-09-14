@@ -30,20 +30,6 @@ fields:
   ownrent:
     display: Own/Rent
     validate: required
-  employer:
-    display: 'Employer's Name and Address'
-  jobtitle:
-    display: 'Job Title'
-  lengthofemployment:
-    display: 'Length of Employment at Current Job'
-  driverslicense:
-    display: 'Driver's License - Province/State and Number'
-  licenseplate:
-    display: 'Vehicle License Plate - Province/State and Number'
-  insuranceprovider:
-    display: 'Home/Renter Insurance Provider'
-  policynumber:
-    display: 'Policy Number'
   numberadults:
     display: Number of adults
     validate: required
@@ -53,15 +39,8 @@ fields:
   bringingdog:
     display: Are you bringing a dog?
     validate: required
-  doginfo:
-    display: 'Please provide details of age, breed, size, temperament and training. Please note Baker's Landing has a strict "maximum 2 dog" policy, and cats are not allowed.'
   bringingguests:
     display: Are you bringing additional guests?
-    validate: required
-  guestinfo:
-    display: 'If yes, please provide their names and dates of their visit.'
-  bringingboat:
-    display: 'Do you plan on bringing a boat? If so we have plenty of parking space.'
     validate: required
   comments:
     display: 'Please use the area below to add any additional Details, Questions or Comments you may have.'
@@ -78,20 +57,10 @@ columns:
   - postalzipcode
   - numberyearsataddress
   - ownrent
-  - employer
-  - jobtitle
-  - lengthofemployment
-  - driverslicense
-  - licenseplate
-  - insuranceprovider
-  - policynumber
   - numberadults
   - numberchildren
   - bringingdog
-  - doginfo
   - bringingguests
-  - guestinfo
-  - bringingboat
   - comments
 email:
   -
