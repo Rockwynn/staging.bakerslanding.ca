@@ -171,8 +171,8 @@ id: 41b0e0b7-0426-41ad-9c6e-8a7325fb5a95
         <label>Are you bringing a dog?</label>
         <select name="bringingdog">
             <option value="">Please Select</option>
-            <option value="Own">Yes</option>
-            <option value="Rent">No</option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
         </select>
     </div>
 
@@ -185,8 +185,8 @@ id: 41b0e0b7-0426-41ad-9c6e-8a7325fb5a95
         <label>Are you bringing any additional day or overnight guests?</label>
         <select name="bringingguests">
             <option value="">Please Select</option>
-            <option value="Own">Yes</option>
-            <option value="Rent">No</option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
         </select>
     </div>
 
@@ -199,8 +199,8 @@ id: 41b0e0b7-0426-41ad-9c6e-8a7325fb5a95
         <label>Do you plan on bringing a boat? If so we have plenty of parking space.</label>
         <select name="bringingboat">
             <option value="">Please Select</option>
-            <option value="Own">Yes</option>
-            <option value="Rent">No</option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
         </select>
     </div>
 

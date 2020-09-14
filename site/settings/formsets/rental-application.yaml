@@ -63,7 +63,7 @@ fields:
   bringingboat:
     display: 'Do you plan on bringing a boat? If so we have plenty of parking space.'
     validate: required
-  comments:
+  comment:
     display: 'Please use the area below to add any additional Details, Questions or Comments you may have.'
 columns:
   - checkindate
