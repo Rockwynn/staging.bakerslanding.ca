@@ -37,9 +37,9 @@ fields:
   lengthofemployment:
     display: 'Length of Employment at Current Job'
   driverslicense:
-    display: 'Driver's License - Province/State and Number'
+    display: "Driver's License - Province/State and Number"
   licenseplate:
-    display: 'Vehicle License Plate - Province/State and Number'
+    display: "Vehicle License Plate - Province/State and Number"
   insuranceprovider:
     display: 'Home/Renter Insurance Provider'
   policynumber:
@@ -54,7 +54,7 @@ fields:
     display: 'Are you bringing a dog?'
     validate: required
   doginfo:
-    display: 'Please provide details of age, breed, size, temperament and training. Please note Baker's Landing has a strict "maximum 2 dog" policy, and cats are not allowed.'
+    display: "Please provide details of age, breed, size, temperament and training. Please note Baker's Landing has a strict "maximum 2 dog" policy, and cats are not allowed."
   bringingguests:
     display: 'Are you bringing additional guests?'
     validate: required
