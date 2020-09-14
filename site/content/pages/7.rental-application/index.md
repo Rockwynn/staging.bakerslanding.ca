@@ -55,8 +55,8 @@ id: 41b0e0b7-0426-41ad-9c6e-8a7325fb5a95
     </div>
 
     <div class="form-group">
-        <label>Cell Number</label>
-        <input type="text" name="secondaryphonenumber" value="{{ old:secondaryphonenumber }}" class="form-control" />
+        <label>Cell Phone Number</label>
+        <input type="text" name="cellphonenumber" value="{{ old:cellphonenumber }}" class="form-control" />
     </div>
 
     <div class="form-group">

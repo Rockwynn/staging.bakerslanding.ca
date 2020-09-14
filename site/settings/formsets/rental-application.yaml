@@ -14,9 +14,9 @@ fields:
     display: 'Email address'
     validate: required|email
   phonenumber:
-    display: 'Phone number'
-  secondaryphonenumber:
-    display: 'Secondary phone number'
+    display: 'Home Phone number'
+  cellphonenumber:
+    display: 'Cell phone number'
   address:
     display: Address
   city:
