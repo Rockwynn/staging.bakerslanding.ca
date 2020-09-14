@@ -50,8 +50,8 @@ id: 41b0e0b7-0426-41ad-9c6e-8a7325fb5a95
     </div>
 
     <div class="hidden form-group">
-        <label>Username</label>
-        <input type="text" name="username" />
+        <label>Lastname</label>
+        <input type="text" name="lastname" />
     </div>
 
     <div class="form-group">

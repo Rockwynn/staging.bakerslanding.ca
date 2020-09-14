@@ -1,5 +1,5 @@
 title: 'Rental Application'
-honeypot: username
+honeypot: lastname
 fields:
   checkindate:
     display: 'Check in date - Saturday'
@@ -15,7 +15,6 @@ fields:
     validate: required|email
   homephonenumber:
     display: 'Home Phone number'
-  username: something
   cellphonenumber:
     display: 'Cell phone number'
   address:
