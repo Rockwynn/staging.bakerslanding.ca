@@ -26,7 +26,7 @@ id: 41b0e0b7-0426-41ad-9c6e-8a7325fb5a95
 
     <div class="form-group">
         <label>Check in Date - Saturday</label>
-        <input type="date" name="Check In Date" value="{{ old:Check In Date }}" class="form-control" />
+        <input type="date" name="CheckInDate" value="{{ old:CheckInDate }}" class="form-control" />
     </div>
 
     <div class="form-group">
@@ -86,7 +86,7 @@ id: 41b0e0b7-0426-41ad-9c6e-8a7325fb5a95
 
     <div class="form-group">
         <label>Do you Own or Rent your home</label>
-        <select name="ownrent">
+        <select name="ownrent" value="{{ old:ownrent }}">
             <option value="">Please Select</option>
             <option value="Own">Own</option>
             <option value="Rent">Rent</option>
@@ -143,7 +143,7 @@ id: 41b0e0b7-0426-41ad-9c6e-8a7325fb5a95
 
     <div class="form-group">
         <label>Number of Adults</label>
-        <select name="numberadults">
+        <select name="numberadults" value="{{ old:numberadults }}">
             <option value="">Please Select</option>
             <option value="1">1</option>
             <option value="2">2</option>
@@ -158,7 +158,7 @@ id: 41b0e0b7-0426-41ad-9c6e-8a7325fb5a95
 
     <div class="form-group">
         <label>Number of Children</label>
-        <select name="numberchildren">
+        <select name="numberchildren" value="{{ old:numberchildren }}">
             <option value="">Please Select</option>
             <option value="1">1</option>
             <option value="2">2</option>
@@ -169,7 +169,7 @@ id: 41b0e0b7-0426-41ad-9c6e-8a7325fb5a95
 
     <div class="form-group">
         <label>Are you bringing a dog?</label>
-        <select name="bringingdog">
+        <select name="bringingdog" value="{{ old:bringingdog }}">
             <option value="">Please Select</option>
             <option value="Yes">Yes</option>
             <option value="No">No</option>
@@ -183,7 +183,7 @@ id: 41b0e0b7-0426-41ad-9c6e-8a7325fb5a95
 
     <div class="form-group">
         <label>Are you bringing any additional day or overnight guests?</label>
-        <select name="bringingguests">
+        <select name="bringingguests" value="{{ old:bringingguests }}">
             <option value="">Please Select</option>
             <option value="Yes">Yes</option>
             <option value="No">No</option>
@@ -197,7 +197,7 @@ id: 41b0e0b7-0426-41ad-9c6e-8a7325fb5a95
 
     <div class="form-group">
         <label>Do you plan on bringing a boat? If so we have plenty of parking space.</label>
-        <select name="bringingboat">
+        <select name="bringingboat" value="{{ old:bringingboat }}">
             <option value="">Please Select</option>
             <option value="Yes">Yes</option>
             <option value="No">No</option>
