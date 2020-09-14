@@ -50,6 +50,8 @@ fields:
   Number-of-Children:
     display: 'Number of children'
     validate: required
+  Occupant-Info:
+    display: 'Names, Addresses and Phone Numbers of ALL adults and children occupying Baker’s Landing, including the ages of all children'
   Bringing-Dog:
     display: 'Are you bringing a dog?'
     validate: required
@@ -87,6 +89,7 @@ columns:
   - Policy-Number
   - Number-of-Adults
   - Number-of-Children
+  - Occupant-Info
   - Bringing-Dog
   - Dog-Info
   - Bringing-Guests

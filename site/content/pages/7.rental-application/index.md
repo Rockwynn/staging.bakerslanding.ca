@@ -164,6 +164,11 @@ id: 41b0e0b7-0426-41ad-9c6e-8a7325fb5a95
     </div>
 
     <div class="form-group">
+        <label>Names, Addresses and Phone Numbers of ALL Adults and Children occupying Baker’s Landing, including the ages of all children.</label>
+        <textarea name="Occupant-Info" class="form-control">{{ old:Occupant-Info }}</textarea>
+    </div>
+
+    <div class="form-group">
         <label>Are you bringing a dog?</label>
         <select name="Bringing-Dog" value="{{ old:Bringing-Dog }}">
             <option value="">Please Select</option>
