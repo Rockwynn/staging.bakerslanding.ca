@@ -45,18 +45,18 @@ fields:
   policynumber:
     display: 'Policy Number'
   numberadults:
-    display: Number of adults
+    display: 'Number of adults'
     validate: required
   numberchildren:
-    display: Number of children
+    display: 'Number of children'
     validate: required
   bringingdog:
-    display: Are you bringing a dog?
+    display: 'Are you bringing a dog?'
     validate: required
   doginfo:
     display: 'Please provide details of age, breed, size, temperament and training. Please note Baker's Landing has a strict "maximum 2 dog" policy, and cats are not allowed.'
   bringingguests:
-    display: Are you bringing additional guests?
+    display: 'Are you bringing additional guests?'
     validate: required
   guestinfo:
     display: 'If yes, please provide their names and dates of their visit.'
