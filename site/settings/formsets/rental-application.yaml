@@ -31,7 +31,7 @@ fields:
     display: Own/Rent
     validate: required
   employer:
-    display: 'Employer's Name and Address'
+    display: "Employer's Name and Address"
   jobtitle:
     display: 'Job Title'
   lengthofemployment:
