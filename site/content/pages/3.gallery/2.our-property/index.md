@@ -9,7 +9,6 @@ images:
   - /house-outdoor/IMG_6891.JPG
   - /house-outdoor/1942.jpg
   - /house-outdoor/6661.jpg
-  - /house-outdoor/1645-320x240.jpg
   - /house-outdoor/8047.jpg
   - /house-outdoor/IMG_6817.JPG
   - /house-outdoor/IMG_6860.JPG
