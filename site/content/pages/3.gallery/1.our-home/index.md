@@ -6,10 +6,6 @@ images:
   - /house-indoor/IMG_6841.JPG
   - /house-indoor/IMG_6838.JPG
   - /house-indoor/IMG_6832.JPG
-  - /house-indoor/IMG_6821.JPG
-  - /house-indoor/IMG_6824.JPG
-  - /house-indoor/IMG_6826.JPG
-  - /house-indoor/IMG_6830.JPG
   - /house-indoor/IMG_6834.JPG
   - /house-indoor/IMG_6836.JPG
   - /house-indoor/IMG_6843.JPG
@@ -19,6 +15,10 @@ images:
   - /house-indoor/IMG_6851.JPG
   - /house-indoor/IMG_6852.JPG
   - /house-indoor/IMG_6871.JPG
+  - /house-indoor/IMG_6821.JPG
+  - /house-indoor/IMG_6824.JPG
+  - /house-indoor/IMG_6826.JPG
+  - /house-indoor/IMG_6830.JPG
   - /house-indoor/IMG_6872.JPG
 
 
