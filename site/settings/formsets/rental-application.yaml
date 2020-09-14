@@ -98,7 +98,7 @@ columns:
   - Comment
 email:
   -
-    to: whitehouseont@gmail.com
+    to: info@bakerslanding.ca
     from: info@bakerslanding.ca
     reply_to: '{{email}}'
     subject: 'BL - Rental Application Submission'
