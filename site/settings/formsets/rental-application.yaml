@@ -100,5 +100,5 @@ email:
   -
     to: info@bakerslanding.ca
     from: info@bakerslanding.ca
-    reply_to: '{{email}}'
+    reply_to: '{{Email}}'
     subject: 'BL - Rental Application Submission'
