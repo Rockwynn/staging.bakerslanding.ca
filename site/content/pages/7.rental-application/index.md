@@ -211,7 +211,7 @@ id: 41b0e0b7-0426-41ad-9c6e-8a7325fb5a95
         <textarea name="comment" class="form-control">{{ old:comment }}</textarea>
     </div>
 
-    <div><label><b>Privacy Policy:</b> The owners of Baker’s Landing will keep all information collected private. The information is being collected for rental screening purposes.</label></div>
+    <div><label>Privacy Policy: The owners of Baker’s Landing will keep all information collected private. The information is being collected for rental screening purposes.</label></div>
 
     <button class="btn btn-primary">Submit</button>
 
