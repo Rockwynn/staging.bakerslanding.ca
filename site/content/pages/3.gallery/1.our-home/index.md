@@ -14,9 +14,9 @@ images:
   - /house-indoor/IMG_6851.JPG
   - /house-indoor/IMG_6852.JPG
   - /house-indoor/IMG_6821.JPG
-  - /house-indoor/IMG_6824.JPG
   - /house-indoor/IMG_6826.JPG
   - /house-indoor/IMG_6830.JPG
+  - /house-indoor/IMG_6824.JPG
   - /house-indoor/IMG_6872.JPG
   - /house-indoor/IMG_6871.JPG
 
