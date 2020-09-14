@@ -5,7 +5,7 @@ sitemap_url: sitemap.xml
 sitemap_cache_length: 60
 
 defaults:
-  site_name: "Baker's Landing"
+  site_name: 'Bakers Landing'
   site_name_position: 'after'
   site_name_separator: '|'
   title: '@seo:title'
