@@ -7,4 +7,3 @@ local/storage/*
 local/temp/*
 installer.php
 statamic/composer.lock
-statamic/sw-composer.lock
